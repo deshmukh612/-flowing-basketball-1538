@@ -1,5 +1,5 @@
 import React from 'react'
-import homeimg from "../PagesG/homeImg.png"
+import homeimg from "../Pages/homeImg.png"
 
 const Adds = () => {
   return (

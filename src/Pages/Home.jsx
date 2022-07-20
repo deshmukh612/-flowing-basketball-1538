@@ -1,10 +1,10 @@
 
 
 import React from 'react'
-import Adds from '../Com/Adds'
-import CheckoutBlog from '../Com/CheckoutBlog'
-import ShopByCate from '../Com/ShopByCate'
-import Slider1G from '../Com/Slider1G'
+import Adds from '../Componentsponents/Adds'
+import CheckoutBlog from '../Components/CheckoutBlog'
+import ShopByCate from '../Components/ShopByCate'
+import Slider1G from '../Components/Slider1G'
 
 const Home = () => {
   return (
