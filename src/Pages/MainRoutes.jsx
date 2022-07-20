@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Demo from './demo'
+import Demo from './Demo'
 import Home from './Home'
 import SBCIndevidualPage from './SBCIndevidualPage'
 
@@ -11,7 +11,7 @@ const MainRoutes = () => {
 
         <Route  path='/' element= {<Home/>} />
         {/* <Route path='/sbArray/:id' element = {<SBCIndevidualPage/>}/> */}
-        <Route  path='/abc/:id' element= {<Demo/>}/>
+        <Route  path='/abc/:id' element= {<Demo />}/>
      </Routes>
 
   )
