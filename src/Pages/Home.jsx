@@ -1,7 +1,7 @@
 
 
 import React from 'react'
-import Adds from '../Componentsponents/Adds'
+import Adds from '../Components/Adds'
 import CheckoutBlog from '../Components/CheckoutBlog'
 import ShopByCate from '../Components/ShopByCate'
 import Slider1G from '../Components/Slider1G'
