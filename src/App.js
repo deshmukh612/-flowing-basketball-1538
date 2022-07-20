@@ -1,12 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Footer from './Com/Footer';
-import Home from './PagesG/Home';
+import Footer from './Components/Footer';
+import Home from './Pages/Home';
+import MainRoutes from './Pages/MainRoutes';
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      {/* <Home /> */}
+
+      <MainRoutes/>
+      
      
      {/* <Footer/> */}
     </div>

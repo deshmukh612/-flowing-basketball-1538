@@ -3,7 +3,7 @@ import { Grid ,GridItem,Box,Image,Badge} from '@chakra-ui/react'
 import React, { useEffect } from 'react'
 import { useSelector,useDispatch } from 'react-redux/es/exports'
 
-import sbCate from "../Com/shopByCate.module.css"
+import sbCate from "../Components/shopByCate.module.css"
 import { getShopByCategory } from '../Redux/HomeReducer/action'
 import {Link } from "react-router-dom"
 
