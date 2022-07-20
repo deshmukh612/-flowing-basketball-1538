@@ -1,0 +1,43 @@
+
+
+.mainDiv{
+    width: 80%;
+    height: auto;
+    border: 1px solid blue;
+    margin: auto;
+}
+
+
+.mainDiv h2{
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+
+.mainDiv >span{
+    display: block;
+    color: #4a4a4a;
+    margin-bottom: 15px;
+    /* background-color: red; */
+}
+
+.gridDiv img{
+    width: 264px;
+    height: 205px;
+    /* display: block; */
+    /* margin: auto; */
+
+    /* padding: 50px; */
+    /* background-color: green; */
+    transition: transform .3s; /* Animation */
+    /* width: 200px;
+    height: 200px; */
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+
+.gridDiv img:hover{
+    /* background-color: black; */
+    transform: scale(0.5)
+}
