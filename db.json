@@ -1,0 +1,486 @@
+{
+  "chicken": [
+    {
+      "id": 1,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/d667aa91-ba62-2117-a672-034b58bbac39/original/Chicken-Drumstick---Hero-Shot.jpg",
+      "title": "Chicken Drumstick - Pack Of 6\nSkinless, bone-in, juicy meat from the lower leg with a unique flavour enhanced by the bone.\n\nNet wt: 6 Pieces: 6\n\nMRP: ₹269\nADD TO CART\n\n 0",
+      "description": "Skinless, bone-in, juicy meat from the lower leg with a unique flavour enhanced by the bone.",
+      "wet": "Net wt: 6",
+      "category": "All",
+      "qty": "Pieces: 6",
+      "price": 354
+    },
+    {
+      "id": 2,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/b09b43a2-f520-264f-1a29-f47cb0e4fad0/original/1584770326.4209--2020-03-2111_28_46--738.jpeg",
+      "title": "Chicken Drumstick - Pack Of 6",
+      "description": "Small pieces of bone-in & boneless chicken for curries",
+      "wet": "Net wt: 500gms",
+      "category": "Novel",
+      "qty": "Gross: 526gms",
+      "price": 325
+    },
+    {
+      "id": 3,
+      "image": "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_av4kgtb3l1h/12/prod_display_image/1631078028.6325--2021-09-0810:43:48--1818",
+      "title": "Chicken Curry Cut - Small Pieces\nSmall pieces of bone-in & boneless chicken for curries\n\nNet wt: 500gms Gross: 526gms\n\nMRP: ₹165\nADD TO CART\n\n 0",
+      "description": "Bone-in chunky pieces of skinless meat including Two leg, wing without tip, & breast quarter.",
+      "wet": "Net wt: 1000gms",
+      "category": "Curry",
+      "qty": "Gross: 1026gms",
+      "price": 125
+    },
+    {
+      "id": 4,
+      "image": "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_avakgtb7ywh/12/prod_display_image/1631077606.8189--2021-09-0810:36:46--1818",
+      "title": "Chicken Curry Cut - Small Pieces",
+      "description": "Half a chicken cut to chunky pieces including Two leg, a wing without the tip, Two breast quarter with backbone.",
+      "wet": "Net wt: 1000gms",
+      "category": "Curry",
+      "qty": "Gross: 1026gms",
+      "price": "MRP: ₹315"
+    },
+    {
+      "id": 5,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/7c76bb79-ca27-4aed-af11-4eeca3882029/original/ChickenLegCurryCutpiecesHeroShot.jpg",
+      "title": "Chicken Curry Cut - Small Pieces (Large Pack)\nBone-in chunky pieces of skinless meat including Two leg, wing without tip, & breast quarter.\n\nNet wt: 1000gms Gross: 1026gms\n\nMRP: ₹325\nADD TO CART\n\n 0",
+      "description": "Skinless, bone-in chicken leg with rich flavour and succulent bite, cut into large pieces.",
+      "wet": "Net wt: 300gms",
+      "qty": "Gross: 400gms",
+      "category": "Curry",
+      "price": 235
+    },
+    {
+      "id": 5,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/2e2c1807-f41c-0ef6-cc05-efa65c92d25f/original/ChickenLC.jpg",
+      "title": "Chicken Curry Cut - Small Pieces (Large Pack)",
+      "description": "Half a chicken cut to chunky pieces including one leg, a wing without the tip, one breast quarter with backbone.",
+      "wet": "Net wt: 500gms",
+      "qty": "Gross: 526gms",
+      "price": 320
+    },
+
+    {
+      "id": 6,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/d667aa91-ba62-2117-a672-034b58bbac39/original/Chicken-Drumstick---Hero-Shot.jpg",
+      "title": "Chicken Drumstick - Pack Of 6",
+      "description": "Skinless, bone-in, juicy meat from the lower leg with a unique flavour enhanced by the bone.",
+      "wet": "Net wt: 500gms",
+      "qty": "Pieces: 6",
+      "category": "All",
+      "price": 455
+    },
+    {
+      "id": 7,
+      "image": "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_3nqjtznab5c/12/prod_display_image/1634534958.5752--2021-10-1810:59:18--1818",
+      "title": "Chicken Breast-Boneless",
+      "description": "Tender, boneless fillets of chicken meat cut from the breast.",
+      "wet": "Net wt: 500gms",
+      "qty": "Gross: 600gms",
+      "category": "Bone",
+      "price": "₹269"
+    },
+    {
+      "id": 8,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/b09b43a2-f520-264f-1a29-f47cb0e4fad0/original/1584770326.4209--2020-03-2111_28_46--738.jpeg",
+      "title": "Chicken Curry Cut - Small Pieces",
+      "description": "Small pieces of bone-in & boneless chicken for curries",
+      "wet": "Net wt: 500gms",
+      "qty": "Gross: 526gms",
+      "category": "Bone",
+      "price": 70
+    },
+    {
+      "id": 9,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/6d80d40b-5b16-6761-c7d2-e1aadc31240b/original/Chicken_MiniBites_Boneless_Hero_Shot.jpg",
+      "title": "Chicken Boneless - Mini Bites",
+      "description": "Boneless chicken breast cut into bite-sized pieces that kids will love!",
+      "wet": "Net wt: 500gms",
+      "qty": "Gross: 350gms",
+      "category": "All",
+      "price": 70
+    },
+
+    {
+      "id": 10,
+      "image": "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_av4kgtb3l1h/12/prod_display_image/1631078028.6325--2021-09-0810:43:48--1818",
+      "title": "Chicken Curry Cut - Small Pieces (Large Pack)",
+      "description": "Bone-in chunky pieces of skinless meat including Two leg, wing without tip, & breast quarter.",
+      "wet": "Net wt: 500gms",
+      "qty": "Gross: 1026gms",
+      "price": 400,
+      "category": "All"
+    },
+    {
+      "id": 11,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/a36d074e-8c21-1f4e-bfc3-cf9b2fe8f21c/original/Chicken_Mince_Large_Pack_Hero_Shot.jpg",
+      "title": "Chicken Mince (Keema)",
+      "description": "Boneless, minced chicken for a variety of dishes",
+      "wet": "Net wt: 500gms",
+      "category": "Curry",
+      "qty": "Gross: 565gms",
+      "price": 320
+    },
+    {
+      "id": 12,
+      "image": "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_avakgtb7ywh/12/prod_display_image/1631077606.8189--2021-09-0810:36:46--1818",
+      "title": "Chicken Curry Cut - Large Pieces (Large Pack)",
+      "description": "Half a chicken cut to chunky pieces including Two leg, a wing without the tip, Two breast quarter with backbone.",
+      "wet": "Net wt: 500gms",
+      "category": "Bone",
+      "qty": "Gross: 1026gms",
+      "price": 230
+    },
+    {
+      "id": 13,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/7c76bb79-ca27-4aed-af11-4eeca3882029/original/ChickenLegCurryCutpiecesHeroShot.jpg",
+      "title": "Chicken Leg Curry Cut - Large Pieces",
+      "description": "Skinless, bone-in chicken leg with rich flavour and succulent bite, cut into large pieces.",
+      "wet": "Net wt: 500gms",
+      "qty": "Gross: 400gms",
+      "category": "All",
+      "price": 230
+    },
+    {
+      "id": 14,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/4bb13cb1-3d1e-12e0-1dac-619ce32e580e/original/Chicken_Thigh_Boneless_Hero_Shot.jpg",
+      "title": "Chicken Thigh Boneless",
+      "description": "Skinless, pale pink, boneless meat from the upper chicken leg that offers a tender, toothsome bite",
+      "wet": "Net wt: 500gms",
+      "qty": "Gross: 565gms",
+      "category": "Bone",
+      "price": 325
+    },
+    {
+      "id": 15,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/2e2c1807-f41c-0ef6-cc05-efa65c92d25f/original/ChickenLC.jpg",
+      "title": "Chicken Curry Cut - Large Pieces",
+      "description": "Half a chicken cut to chunky pieces including one leg, a wing without the tip, one breast quarter with backbone.",
+      "wet": "Half a chicken cut to chunky pieces including one leg, a wing without the tip, one breast quarter with backbone.",
+      "qty": "Gross: 526gms",
+      "price": 130,
+      "category": "Curry"
+    },
+    {
+      "id": 15,
+      "image": "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_fmhkgtbdprx/12/prod_display_image/1631077266.4484--2021-09-0810:31:06--1818",
+      "title": "Chicken Breast Boneless (Large Pack)",
+      "description": "Tender, boneless fillets of chicken meat cut from the breast.",
+      "wet": "Gross: 526gms",
+      "category": "All",
+      "qty": "Gross: 1200gms",
+      "price": 100
+    },
+    {
+      "image": "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_ffojtznsds8/12/prod_display_image/1634535779.7851--2021-10-1811:12:59--1818",
+      "title": "Chicken Boneless Cubes",
+      "description": "Skinless & boneless Cut & cleaned",
+      "wet": "Gross: 526gms",
+      "qty": "Gross: 690gms",
+      "category": "Bone",
+      "price": 238
+    },
+    {
+      "id": 16,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/3fcb110e-482f-cc34-d816-8b583c0611f2/original/Chicken_Thigh_Skinless_Hero_Shot.jpg",
+      "title": "Chicken Thigh With Bone",
+      "description": "5-7 pieces of bone-in chicken thigh",
+      "wet": "5-7 pieces of bone",
+      "qty": "Gross: 550gms",
+      "category": "All",
+      "price": 230
+    },
+    {
+      "id": 17,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/7a787c2d-f8a8-faea-3a25-9d2161f64e4b/original/Chicken-Kasundi-Pakora.jpg",
+      "title": "Chicken Kasundi Pakora | Ready to Cook",
+      "description": "Chicken marinated in kasundi mustard, lemon and spices.",
+      "wet": "Gross: 526gms",
+      "category": "Curry",
+      "qty": "Pieces: 18-22",
+      "price": 700
+    },
+    {
+      "id": 17,
+      "image": "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_5jxjsbhief7/12/prod_display_image/1574095309.014--2019-11-1822:11:49--458",
+      "title": "Chicken Leg With Thigh - Pack of 2",
+      "description": "Skinless and bone-in chicken thigh and drumstick with a rich flavour and succulent bite",
+      "wet": "Skinless and bone-in chicken thigh and drumstick with a rich flavour and succulent bite",
+      "qty": "Gross: 533gms",
+      "category": "Bone",
+      "price": 111
+    },
+    {
+      "id": 18,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/c9a88f95-9e5d-d445-4882-d02b3ad17947/original/Chatpata-Chicken-Pakoda-Uncooked.jpg",
+      "title": "Chicken Chatpata Pakora | Ready to Cook",
+      "description": "Boneless strips of chicken coated in a spicy batter.",
+      "wet": "Gross: 526gms",
+      "qty": "Pieces: 18-22",
+      "category": "Curry",
+      "price": 212
+    },
+    {
+      "image": "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/d0c22626-cb6f-262c-4f44-7ee2bbe331b2/original/1598524707.9636--2020-08-2716_08_27--472.jpeg",
+      "title": "Chicken Curry Cut (Small Pcs) - 500 gms and Chicken Breast Boneless- 450 gms",
+      "description": "Curry & steak, cook something new for every meal.",
+      "wet": "Gross: 526gms",
+      "qty": "Pieces: 7-9",
+      "category": "Bone",
+      "price": 555
+    },
+    {
+      "id": 19,
+      "image": "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_g9vks09qawd/12/prod_display_image/1628249559.7172--2021-08-0617:02:39--1818",
+      "title": "Chicken Curry Cut (Large Pcs) +Chicken Mini Bites - Breast Cut (Boneless)",
+      "description": "Curry & mini bites, cook something new for every meal.",
+      " wet": "Curry & mini bites, cook something new for every meal.",
+      "qty": "Gross: 460gms",
+      "category": "Bone",
+      "price": 499
+    },
+    {
+      "id": 20,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/3b142da7-4870-c32c-de41-823a90835492/original/1599558627.2585--2020-09-0815_20_27--472.jpeg",
+      "title": "Chicken Curry Cut (Small pcs) - 500 gms and Chicken Mince - Kheema - 450 gms",
+      "description": "Like chunky or minced chicken? Get both in this combo.",
+      "wet": "Net wt: 500gms",
+      "qty": "Pieces: 10",
+      "category": "All",
+      "price": 440
+    },
+    {
+      "id": 21,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/009ec387-2939-aadc-d8b4-133d19d5ae95/original/1599279471.6941--2020-09-0509_47_51--472.jpeg",
+      "title": "Chicken Curry Cut (Small pcs) - 500 gms and Chicken Lollipop - 10 Pcs",
+      "description": "Snack to dinner time, plan your meals with this combo.",
+      "wet": "Net wt: 500gms",
+      "qty": "Gross: 1130gms",
+      "category": "Bone",
+      "price": 330
+    },
+    {
+      "id": 22,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/cda981cf-0743-ef7a-29ae-692f7208d4a5/original/Creamy-Afghani-Chicken-(Mini)-_-Tag.jpg",
+      "title": "Creamy Afghani Chicken (Mini) | Ready to Cook",
+      "description": "Boneless pieces of chicken in a creamy marinade.",
+      "wet": "Gross: 526gms",
+      "qty": "Gross: 1303gms",
+      "category": "Bone",
+      "price": 430
+    }
+  ],
+
+  "fish": [
+    {
+      "id": 23,
+      "title": "Freshwater Prawns 40C - 60C (Jhinga) - Cleaned & Deveined, No Tail",
+      "description": "Freshwater prawns. De-shelled, cleaned, deveined, butterflied prawns, with head and tail removed.",
+      "wet": "Net wt: 250gms",
+      "qty": "Gross: 500gms",
+      "price": 450,
+      "category": "Bone",
+      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/914ecf88-5765-adb2-1da5-7582b96a990d/original/WhatsApp_Image_2022-04-13_at_2.16.31_PM.jpeg"
+    },
+    {
+      "id": 24,
+      "title": "Catla (Katla) Medium - Bengali Cut, No Head",
+      "description": "Cleaned, medium-sized, freshwater, bony, unique tasting Catla Bengali cut without head.",
+      "wet": "Net wt: 500gms",
+      "qty": "Gross: 961gms",
+      "category": "Bone",
+
+      "price": 444,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/40143458-f59b-94bf-ea96-196741503f12/original/1598120399.6179--2020-08-2223_49_59--738.jpeg"
+    },
+    {
+      "id": 25,
+      "title": "Bombay Duck (Bombil) Medium - Whole, Cleaned",
+      "description": "Light grey, firm textured, cleaned and gutted whole Bombay Duck.",
+      "wet": "Net wt: 200gms",
+      "qty": "Gross: 267gms",
+      "category": "Bone",
+
+      "price": 375,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/954cf2fc-8500-f24a-c70b-0a2d4479aa0e/original/Bombay-Duck-medium.jpeg"
+    },
+    {
+      "id": 26,
+      "title": "White Pomfret (Paplet) - Whole, Cleaned",
+      "description": "Cleaned, gutted, light-coloured, buttery-textured, delicate-flavoured white Pomfret",
+      "wet": "Net wt: 350gms",
+      "qty": "Gross: 440gms",
+      "category": "Bone",
+      "price": 375,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/262ded6e-268a-92ca-275a-aa84c42482ca/original/1600275948.4508--2020-09-1622_35_48--738.jpeg"
+    },
+    {
+      "id": 27,
+      "title": "Freshwater Prawns (Jhinga) Trial Pack - 10 Pcs (Cleaned & Deveined No Tail)",
+      "description": "Freshwater prawns. De-shelled, cleaned, deveined, butterflied prawns, with head and tail removed.",
+      "wet": "Net wt: 10",
+      "qty": "Pieces: 10",
+      "category": "Curry",
+      "price": 185,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/ce900b7d-5a71-618c-b55c-0cf1b00fb5ea/original/unnamed.jpg"
+    },
+    {
+      "id": 28,
+      "title": "Freshwater Prawns 40C-60C (Jhinga) Large Pack - Cleaned & Deveined, No Tail",
+      "description": "Freshwater prawns. De-shelled, cleaned, deveined, butterflied prawns, with head and tail removed.",
+      "wet": "Net wt: 500gms",
+      "category": "All",
+      "qty": "Gross: 962gms",
+      "price": 450,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/442e23c5-e595-f72d-d04a-b58d12cc04e0/original/Freshwater-Prawns-medium2.jpeg"
+    },
+    {
+      "id": 29,
+      "title": "Indian Salmon (Rawas/Gurjali) Medium - Steaks",
+      "description": "Omega 3 rich, low fat, white-fleshed, mild tasting Indian salmon crafted into meaty slabs.",
+      "wet": "Net wt: 350gms",
+      "qty": "Gross: 604gms",
+      "category": "Bone",
+      "price": 456,
+      "image": "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_m7wku6qrrv7/12/prod_display_image/1633173713.6231--2021-10-0216:51:53--1818"
+    },
+    {
+      "id": 30,
+      "title": "Basa - Fry Cut",
+      "description": "This boneless cut of the Basa has between 3-4 pieces and is crafted by experts into thick and neat rectangular fillets",
+      "wet": "Net wt: 250gms",
+      "qty": "Gross: 927gms",
+      "category": "All",
+      "price": 30,
+      "image": "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_kkxktwxejd0/12/prod_display_image/1633853715.0982--2021-10-1013:45:15--1818"
+    },
+    {
+      "id": 31,
+      "title": "Fish Fingers | Ready to Cook",
+      "description": "Boneless pieces of basa, coated in panko crumbs.",
+      "wet": "Net wt: 250gms",
+      "qty": "Pieces: 9-12",
+      "price": 199,
+      "category": "Bone",
+      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/679e55fe-d17c-b523-0c9c-f89690fe78b9/original/rtc_july_6images-23.jpg"
+    },
+    {
+      "id": 32,
+      "title": "Fish Tikka | Ready to Cook",
+      "description": "Boneless basa fillets in an East Indian style marinade.",
+      "wet": "Net wt: 350gms",
+      "qty": "Pieces: 11 - 13",
+      "price": 199,
+      "category": "Bone",
+
+      "image": "https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/6c499096-9f90-3e93-696b-7e5a1b257224/original/Fish-Tikka-Tag.jpg"
+    },
+    {
+      "id": 33,
+      "title": "Indian Salmon (Rawas/Gurjali) Large - Steaks",
+      "description": "Omega 3 rich, low fat, white-fleshed, mild tasting Indian salmon crafted into meaty slabs",
+      " wet": "Net wt: 350gms",
+      "qty": "Gross: 675gms",
+      "category": "Bone",
+      "price": 300,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/95981c99-fd73-091e-55ab-a9fb41c93e55/original/1601861664.0843--2020-10-0507_04_24--738.jpeg"
+    },
+    {
+      "id": 34,
+      "title": "Basa - Finger Cut",
+      "description": "11-14 pieces of expertly crafted Basa fillet that’s further cut into long strips",
+      "wet": "Net wt: 250gms",
+      "category": "All",
+      "qty": "Gross: 927gms",
+      "price": 400,
+      "image": "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_nvvktwxg5of/12/prod_display_image/1633921452.0664--2021-10-1108:34:12--1818"
+    }
+  ],
+  "cart" :[
+     
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+
+  "sbcategory" :[
+    {
+       "id":1,
+      "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/539819fa-f8f5-6148-d407-95522fa17a28/original/Todays-deal21.png",
+      "name": "Today Deals"
+    },
+
+    {
+      "id":2,
+     "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/479a9750-d9a2-33ff-0693-3044a9dcae91/original/Chicken.png",
+     "name": "Chicken"
+   },
+   {
+    "id":3,
+   "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/46494180-ff34-2236-4240-da12222c4d23/original/Fish___Seafood.png",
+   "name": "Fish___Seafood"
+ },
+
+ {
+  "id":4,
+ "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/952cc910-319c-0b5d-fa34-373f05f0917a/original/Mutton.png",
+ "name": "Mutton"
+},
+
+{
+  "id":5,
+ "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/0a8c4f08-15e7-12e5-a696-286cddadf373/original/RTC_(2).png",
+ "name": "Ready To Cook"
+},
+
+{
+  "id":6,
+ "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/b528b5d9-aae1-8814-99d5-8642e2ee3676/original/Prawns.png",
+ "name": "Prawns"
+},
+
+{
+  "id":7,
+ "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/d08157a7-8828-4978-eb3f-3408cfe7d1f9/original/Venus_(1).png",
+ "name": "Cold Cuts"
+},
+
+{
+  "id":8,
+ "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/066b2145-5678-c1c6-5a05-5e5e53840101/original/Continental-egg-spread.png",
+ "name": "Spreads"
+},
+
+{
+  "id":9,
+ "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/54771c04-5aae-094d-8739-b22d09ab284e/original/Eggs.png",
+ "name": "Eggs"
+},
+
+{
+  "id":10,
+ "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/8f6c3a69-7867-05d5-9367-ed091bdf3c61/original/hyd-chicken.png",
+ "name": "Biryani & Kabab"
+},
+
+{
+  "id":11,
+ "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/b8169e6d-59ae-ba6f-f839-ec0883a9742e/original/Combo2.png",
+ "name": "Combas"
+},
+
+{
+  "id":12,
+ "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/804e2c47-aa87-e548-8d19-789b1fccb8bb/original/GFD.png",
+ "name": "Featured Collections"
+}
+   
+   
+ 
+  ]
+
+}
