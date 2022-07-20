@@ -1,6 +1,6 @@
 
 import React from 'react'
-import footer from "../Com/footer.module.css"
+import footer from "../Components/footer.module.css"
 
 const Footer = () => {
   return (
@@ -21,7 +21,7 @@ const Footer = () => {
              <spen><a href="https://www.licious.in/about-us">Why Licious?</a></spen>
              <spen><a href="https://www.licious.in/refer-earn-tnc">Refer & Earn</a></spen>
              <spen><a href="https://www.licious.in/licious-cash">Licious Cash & Cash+</a></spen>
-             <spen><a href="https://www.linkedin.com/jobs/search?f_C=9471845&location=India&originalSubdomain=in">Careers</a></spen>
+             <spen><a href="https://www.linkedin.Components/jobs/search?f_C=9471845&location=India&originalSubdomain=in">Careers</a></spen>
              <spen><a href="https://www.licious.in/blog/">BLOG</a></spen>
              <spen><a href="https://www.licious.in/campaign">Campaign</a></spen>
              <spen><a href="https://www.licious.in/bug-bounty-guidelines">Bug Bounty Guidelines</a></spen>
@@ -37,8 +37,8 @@ const Footer = () => {
         <div>
 
             <h4>EXPERIENCE LICIOUS APP ON MOBILE</h4>
-           <a href="https://apps.apple.com/in/app/buy-meat-online-licious/id1052440342"><img src="https://www.licious.in/img/rebranding/app-store-new.svg" alt="" /></a> 
-           <a href="https://play.google.com/store/apps/details?id=com.licious"> <img src="https://www.licious.in/img/rebranding/play-store-new.png" alt="" /></a>
+           <a href="https://apps.apple.Components/in/app/buy-meat-online-licious/id1052440342"><img src="https://www.licious.in/img/rebranding/app-store-new.svg" alt="" /></a> 
+           <a href="https://play.google.Components/store/apps/details?id=Components.licious"> <img src="https://www.licious.in/img/rebranding/play-store-new.png" alt="" /></a>
         </div>
 
 
@@ -50,7 +50,7 @@ const Footer = () => {
             <spen>CONTACT US</spen>
             <spen>Call: 1800-4190-786</spen>
           
-            <spen>  <a href="Talktous@licious.com">Talktous@licious.com</a></spen>
+            <spen>  <a href="Talktous@licious.Components">Talktous@licious.Components</a></spen>
             <spen>REGISTERED OFFICE ADDRESS:</spen>
             <spen>House of Licious, Zed Pearl, No 12,</spen>
             <spen>Domlur Layout</spen>
@@ -66,7 +66,7 @@ const Footer = () => {
             <span><a href="https://www.licious.in/privacy-policy">Privacy Policy</a></span>
              <span>HAVE SECURITY CONCERN?</span>
             <span>Mail us to:</span>
-            <span>security@licious.com</span>
+            <span>security@licious.Components</span>
            
         </div>
         <div>
@@ -83,9 +83,9 @@ const Footer = () => {
 
  <div className={footer.instaDiv}>
         <span>KEEP IN TOUCH</span>
-       <a href="https://www.instagram.com/licious_foods/"><img src="https://www.licious.in/img/rebranding/insta_color.png" alt="" /></a> 
-      <a href="https://www.facebook.com/LiciousFoods/"> <img src="https://www.licious.in/img/rebranding/fb_color.png" alt="" /></a> 
-       <a href="https://twitter.com/LiciousFoods"><img src="https://www.licious.in/img/rebranding/twitter_color.png" alt="" /></a> 
+       <a href="https://www.instagram.Components/licious_foods/"><img src="https://www.licious.in/img/rebranding/insta_color.png" alt="" /></a> 
+      <a href="https://www.facebook.Components/LiciousFoods/"> <img src="https://www.licious.in/img/rebranding/fb_color.png" alt="" /></a> 
+       <a href="https://twitter.Components/LiciousFoods"><img src="https://www.licious.in/img/rebranding/twitter_color.png" alt="" /></a> 
      </div>
 
 
@@ -126,7 +126,7 @@ const Footer = () => {
 
         <div className={footer.c}>
             <p> <img src='https://www.licious.in/img/rebranding/copyright2.png'></img>2022 Delightful Gourmet Pvt Ltd. All Rights Reserved.</p>
-            <p>Licious is your one-stop fresh meat delivery shop. In here, you get nothing but the freshest meat & seafood, delivered straight to your doorstep. Now you can buy meat online anytime at your convenience. Indulge in our diverse selection: Chicken, Mutton, Seafood (Fish, Prawns, Crabs), Marinades & Cold Cuts. All our products are completely natural and healthy. Once you've experienced Licious, you'll never go back to the old way of buying meat and seafood.</p>
+            <p>Licious is your one-stop fresh meat delivery shop. In here, you get nothing but the freshest meat & seafood, delivered straight to your doorstep. Now you can buy meat online anytime at your convenience. Indulge in our diverse selection: Chicken, Mutton, Seafood (Fish, Prawns, Crabs), Marinades & Cold Cuts. All our products are Componentspletely natural and healthy. Once you've experienced Licious, you'll never go back to the old way of buying meat and seafood.</p>
         </div>
     </>
   )
