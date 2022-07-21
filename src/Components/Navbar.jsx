@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import navMod from "../Components/navbar.module.css"
 import Cart from './Cart'
+import CartCounter from './CartCounter'
 import Login from './Login'
 
 
@@ -37,6 +38,7 @@ const Navbar = () => {
                 
                         <div><img src="https://www.licious.in/img/rebranding/cart_icon.svg" alt="" /></div>
                         <div><Cart/></div>
+                        <div><CartCounter /></div>
                     
                 </div>
 
