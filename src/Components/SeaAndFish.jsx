@@ -7,7 +7,7 @@ import {
   getShoesFailure,
   getShoesRequest,
   getShoesSuccess,
-} from "../redux/ProductReducer/action";
+} from "../Redux/ProductReducer/action";
 const SeaAndFish = () => {
     const dispatch = useDispatch();
     const Shoes = useSelector((state) => state.reducer.fish);

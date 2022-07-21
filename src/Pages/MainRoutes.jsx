@@ -6,11 +6,13 @@ import Home from './Home'
 import SBCIndevidualPage from './SBCIndevidualPage'
 import Products from "../Components/Products"
 import SeaAndFish from "../Components/SeaAndFish"
+import SuccessPage from './SuccessPage'
 const MainRoutes = () => {
   return (<>
-    <Navbar/>
+    {/* <Navbar/> */}
      <Routes>
-
+            
+           <Route path = "/successPage"  element = {<SuccessPage/>}/>
         <Route  path='/' element= {<Home/>} />
         {/* <Route path='/sbArray/:id' element = {<SBCIndevidualPage/>}/> */}
         <Route  path='/abc/:id' element= {<Demo />}/>

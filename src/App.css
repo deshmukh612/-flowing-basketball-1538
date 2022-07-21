@@ -54,3 +54,12 @@
   background: #efefef;
   text-align: center;
 }
+
+
+/*  */
+.text-small {
+  font-size: 0.9rem;
+}
+.rounded {
+  border-radius: 1rem;
+}
