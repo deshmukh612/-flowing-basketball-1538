@@ -3,14 +3,15 @@
 .mainDiv{
     width: 80%;
     height: auto;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: auto;
+    margin-top: 50px;
 }
 
 
 .mainDiv h2{
     font-weight: bold;
-    color: black;
+    color : #4a4a4a;
     font-size: 30px;
 }
 

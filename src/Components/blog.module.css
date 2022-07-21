@@ -1,0 +1,35 @@
+.blogDiv{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4A4A4A;
+}
+
+.blogDiv div{
+
+    /* width: 33%; */
+    height: 100%;
+    /* border: 1px solid blue; */
+
+}
+
+.blogDiv div>img{
+    width: 376px;
+    height: 378px;
+}
+
+
+.blogDiv1{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+
+}

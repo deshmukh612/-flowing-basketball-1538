@@ -1,0 +1,72 @@
+.net{
+    display: flex;
+}
+
+.sinpro{
+   
+    
+    height: 610px;
+    
+   
+}
+
+.pro{
+    display: grid;
+    grid-template-columns: repeat(3,380px); 
+    margin-left: 180px;
+    gap: 15px;
+}
+
+.proimg{
+    width: 380px;
+    border-radius: 10px;
+}
+.prop{
+    margin-left: 10px;
+    color: black;
+}
+
+.desp{
+    margin-left: 10px;
+    color: gray;
+}
+
+.prot{
+    margin-left: 10px;
+}
+.proprice{
+    margin-left: 10px;
+    color: rgb(247, 12, 51);
+}
+
+.addcart{
+    margin-left: 100px;
+    border: 0ch;
+    background-color: rgb(210, 17, 50);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 20px;
+    color: white;
+    font-size: 16px;
+}
+.prosort{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.label{
+    width: 160px;
+    background-color: gray;
+    margin: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    
+
+}
+.propp{
+    margin-left: 30px;
+    color: black;
+}
