@@ -3,6 +3,7 @@
   height: 400px;
   /* border: 1px solid black; */
   margin: auto;
+  /* margin-top: 200px; */
   display: flex;
   font-size: 14px;
   color: #4A4A4A;
@@ -17,6 +18,15 @@
 
 .leftDiv {
   display: flex;
+  /* border: 1px solid blue; */
+}
+
+
+.leftDiv  .storeDiv div{
+  /* border: 1px solid rgb(65, 59, 59); */
+  display: block;
+  display: flex;
+ 
 }
 
 .footer1 > div > div:nth-child(1) {
@@ -51,6 +61,7 @@
 
 .footer1 > div > div:nth-child(2) a {
   margin-left: 10px;
+  /* border: 1px solid blue; */
  
 }
 
@@ -115,6 +126,7 @@
     font-size: 17px;
   color: #4A4A4A;
    padding-left: 40px;
+   display: flex;
   }
 
   .instaDiv span{
@@ -160,7 +172,7 @@
     color: #4A4A4A;
     /* border-collapse: separate;
     border-spacing: 1000px; */
-    border-right: 1px solid #4A4A4A;
+    /* border-right: 1px solid #4A4A4A; */
     padding-left: 10px;
   
     text-decoration: none;
@@ -193,4 +205,9 @@
     /* margin-left: 40%; */
     font-size: 14px;
     color: #4A4A4A;
+  }
+
+
+  .logo{
+    margin-top: 200px;
   }

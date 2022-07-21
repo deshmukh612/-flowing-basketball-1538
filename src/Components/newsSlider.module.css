@@ -1,0 +1,10 @@
+.newsDiv{
+    width: 80%;
+    height: 300px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: -150px;
+    box-sizing: border-box;
+  
+}
+

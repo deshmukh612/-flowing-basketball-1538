@@ -34,11 +34,13 @@ const Footer = () => {
         </div>
 
 
-        <div>
+        <div className={footer.storeDiv}>
 
             <h4>EXPERIENCE LICIOUS APP ON MOBILE</h4>
+            <div>
            <a href="https://apps.apple.Components/in/app/buy-meat-online-licious/id1052440342"><img src="https://www.licious.in/img/rebranding/app-store-new.svg" alt="" /></a> 
            <a href="https://play.google.Components/store/apps/details?id=Components.licious"> <img src="https://www.licious.in/img/rebranding/play-store-new.png" alt="" /></a>
+           </div>
         </div>
 
 
