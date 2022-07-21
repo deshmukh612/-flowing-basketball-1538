@@ -1,0 +1,66 @@
+.navbarL{
+    width: 100%;
+    height: 80px;
+    border: 1px solid red;
+    position: relative;
+    
+}
+.nav_div1{
+    height:44.73px;
+    margin-top: 20px;
+    border: 1px solid green;
+    display: flex;
+}
+.nav_div1>div{
+margin: auto;
+display: flex;
+}
+.nav_div1 >div img{
+    margin-right: 10px;
+}
+.leciousLogo{
+    margin-left: 50xp;
+}
+.Login_pointer{
+    cursor: pointer;
+}
+.cart_ptc{
+    background-image:url('https://www.bing.com/th?id=A3a2637da7ed806004be6c3d134057a0a&w=99&h=132&c=8&qlt=80&o=6&pid=AWE') ;
+    background-color:#D11243 ;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    border-top-color: initial;
+    border-top-style: none;
+    border-top-width: initial;
+    border-right-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: initial;
+    border-left-color: initial;
+    border-left-style: none;
+    border-left-width: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    font-weight: 600;
+    transition: all 50ms ease-out;
+    transition-property: all;
+    transition-duration: 50ms;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    box-shadow: 0 0 15pxrgba(0,0,0,.2);
+    padding: 12px 30px;
+    padding-top: 12px;
+    padding-right: 30px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    height: 56px;
+    font-size: 15px!important;
+
+}

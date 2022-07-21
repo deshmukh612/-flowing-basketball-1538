@@ -1,13 +1,14 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
+import Navbar from '../Components/Navbar'
 import Demo from './Demo'
 import Home from './Home'
 import SBCIndevidualPage from './SBCIndevidualPage'
 import Products from "../Components/Products"
 import SeaAndFish from "../Components/SeaAndFish"
 const MainRoutes = () => {
-  return (
-    
+  return (<>
+    <Navbar/>
      <Routes>
 
         <Route  path='/' element= {<Home/>} />
@@ -16,6 +17,7 @@ const MainRoutes = () => {
         <Route  path='/products' element= {<Products />}/>
         <Route  path='/seaAndfish' element= {<SeaAndFish />}/>
      </Routes>
+     </>
 
   )
 }
