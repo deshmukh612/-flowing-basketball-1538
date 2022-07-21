@@ -8,24 +8,25 @@ import {
   getShoesRequest,
   getShoesSuccess,
 } from "../Redux/ProductReducer/action";
+ import {Link} from "react-router-dom"
+ import { getBooks } from "../redux/ProductReducer/action";
+ 
 const Products = () => {
   const dispatch = useDispatch();
-  const Shoes = useSelector((state) => state.reducer.chicken);
-
-  const get = () => {
-    dispatch(getShoesRequest());
-    axios
-      .get("/chicken")
-      .then((r) => dispatch(getShoesSuccess(r.data)))
-      .catch((e) => dispatch(getShoesFailure(e)));
-  };
-
+  const chicken = useSelector((state) => state.reducer.chicken);
+ 
   useEffect(() => {
-    get();
+    
+      if(chicken.length===0)
+      {
+        dispatch(getBooks("/chicken"));
+      }
+     
   }, []);
+
   return (
     <div>
-      
+       
 
         <div className="prosort">
              <div className="label">
@@ -42,10 +43,11 @@ const Products = () => {
              </div>
         </div>
          <div className="pro">
-      {
-        Shoes.map((e)=>{
+       {
+        chicken.map((e)=>{
             return (
-                <div className="sinpro">
+              <Link to={`/chicken/${e.id}`}> 
+                <div className="sinpro" key={e.id}>
             <img   className="proimg" src={e.image} alt="" />
            <h3 className="prot">{e.title}</h3>
           <p className="desp">{e.description}</p>
@@ -58,9 +60,12 @@ const Products = () => {
             <button className="addcart">Add To Cart</button>
            </div>
         </div>
+        </Link>
             )
         })
-      }
+      } 
+
+       
      </div>
     </div>
   );
