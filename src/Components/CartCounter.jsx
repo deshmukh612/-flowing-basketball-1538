@@ -16,9 +16,9 @@ const CartCounter = () => {
 
   return (
     <Box
-      background="
-      #c9cfd7"
-      textColor={"black"}
+    background="
+    #d11243"
+    textColor={"white"}
       borderRadius="50%"
       width="17px"
       height="20px"

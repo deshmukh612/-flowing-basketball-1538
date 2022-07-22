@@ -17,11 +17,14 @@ import {
   useColorModeValue,
   Image,
   Flex,
+  Divider,
 } from "@chakra-ui/react";
 import navMod from "../Components/navbar.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { CloseIcon } from "@chakra-ui/icons";
+import cartprod from "../Pages/cartprod.jpg";
 import { deleteProductCart } from "../Redux/ProductReducer/action";
+import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -30,11 +33,16 @@ const Cart = () => {
   const [amount, setAmount] = useState(0);
   const cart = useSelector((state) => state.reducer.cart);
   const dispatch = useDispatch();
+  const navigate = useNavigate()
 
   const removeProduct = (id) => {
     console.log("going ", id);
     dispatch(deleteProductCart(id));
-  };   
+  }; 
+  
+  // const onCloseHandler = () => {
+  //   navigate("/")
+  // }
 
   useEffect(() => {
     if(cart.length){
@@ -43,11 +51,7 @@ const Cart = () => {
         
       },0)
       setAmount(total)   
-      // console.log(amount)
-    }    
-    
-   
-    
+    }     
   }, [cart.length]);
  
   return (
@@ -66,7 +70,6 @@ const Cart = () => {
         <DrawerContent>
           <DrawerCloseButton />
           <DrawerHeader>Order Summery</DrawerHeader>
-
           <DrawerBody>
             <Box
               bg="#417505"
@@ -107,7 +110,14 @@ const Cart = () => {
             >
               Join Now
             </Button>
-            <Box border="1px dotted grey" h="200px" mt="10px">
+            <Image
+        src={cartprod}
+        alt="Dan Abramov"
+        size="md"
+        mt="20px"
+        boxShadow={"rgba(0, 0, 0, 0.15) 0px 5px 15px 0px"}
+      />
+            <Box border="1px dotted grey" h="150px" mt="10px" boxShadow={"rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"}>
               <Text>BILL DETAILS</Text>
               <Flex justifyContent={"space-between"} m="5px">
               <Text>Subtotal</Text>
@@ -121,14 +131,18 @@ const Cart = () => {
               <Text>Discount</Text>
               <Text>0</Text>
               </Flex>
+              <Divider color="black" />              
+              <Flex justifyContent={"space-between"} m="5px">
+              <Text>Total</Text>
+              <Text>₹{amount}</Text>
+              </Flex>
             </Box>
           </DrawerBody>
-
           <DrawerFooter>
             <Button variant="outline" mr={3}>
               Total:₹{amount}
             </Button>
-            <Button colorScheme="D11243" className={navMod.cart_ptc}>
+            <Button colorScheme="D11243" className={navMod.cart_ptc} onClick={onClose}>
               Procees to checkout
             </Button>
           </DrawerFooter>
@@ -151,15 +165,15 @@ function CartItem({
 }) {
   return (
     <Box
-      border={"1px solid gray"}
+      // border={"0.2px solid gray"}
       ml="200px"
       rounded="lg"
       width={"fit-content"}
       margin="auto"
       mt="1rem"
-      w="420px"
+      w="400px"
     >
-      <Box height="90px" border="1px solid red" p={"3px"} pr="10px">
+      <Box height="90px" boxShadow={"rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px"} p={"10px"} pr="10px">
         <Flex direction={"row"} justifyContent="space-between">
           <Box width={"70%"}>
             <Text>{title}</Text>
@@ -168,16 +182,17 @@ function CartItem({
         </Flex>
         <Flex direction={"row"} justifyContent="space-between" mt={"10px"}>
           <Flex direction={"row"}>
-            <Box border={"1px solid grey"} borderRadius="5px" fontSize={"sm"}>
+            <Box border={"1px solid grey"}  p="0 8px 0 8px" borderRadius="5px" fontSize={"sm"}>
               {wet}
             </Box>
-            <Box ml="5px" color={"#d11243"} fontSize="sm" fontWeight={600}>
+            <Box ml="10px" color={"#d11243"} fontSize="sm" fontWeight={600}>
               MRP: ₹{price}
             </Box>
           </Flex>
-          <Flex>counter</Flex>
+          {/* <Flex>counter</Flex> */}
         </Flex>
       </Box>
     </Box>
   );
 }
+

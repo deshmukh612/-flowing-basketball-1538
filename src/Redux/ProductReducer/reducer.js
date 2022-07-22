@@ -2,6 +2,7 @@ import * as types from "./actionTypes";
 
 const initalstate = {
   chicken: [],
+  fish: [],
   isLoading: false,
   isError: false,
   cart: [],
@@ -21,6 +22,7 @@ const reducer = (state = initalstate, action) => {
       return {
         ...state,
         chicken: payload,
+        fish: payload,
         isLoading: true,
         isError: false,
       };

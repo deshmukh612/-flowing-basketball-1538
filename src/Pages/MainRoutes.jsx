@@ -40,9 +40,10 @@ const MainRoutes = () => {
         <Route path="/" element={<Home />} />
         {/* <Route path='/sbArray/:id' element = {<SBCIndevidualPage/>}/> */}
         <Route path="/abc/:id" element={<Demo />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/products/:id" element={<SingleProduct />} />
-        <Route path="/seaAndfish" element={<SeaAndFish />} />
+        <Route path ="/chicken" element ={<Products/>}/>
+        <Route path ="/chicken/:id" element ={<SingleProduct/>}/>
+        <Route path ="/fish" element ={<SeaAndFish />}/>
+        <Route path ="/fish/:id" element ={<SingleProduct />}/>
       </Routes>
     </>
   );

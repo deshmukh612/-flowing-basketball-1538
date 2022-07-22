@@ -1,72 +1,95 @@
-.net{
-    display: flex;
-}
-
-.sinpro{
-   
+* {
+    cursor: pointer;
+    }
+    .net{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 20px;
+        
+    }
     
-    height: 610px;
+    .sinpro{    
+        height: 450px; 
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;  
+        border-radius: 5px; 
+    }
     
-   
-}
-
-.pro{
-    display: grid;
-    grid-template-columns: repeat(3,380px); 
-    margin-left: 180px;
-    gap: 15px;
-}
-
-.proimg{
-    width: 380px;
-    border-radius: 10px;
-}
-.prop{
-    margin-left: 10px;
-    color: black;
-}
-
-.desp{
-    margin-left: 10px;
-    color: gray;
-}
-
-.prot{
-    margin-left: 10px;
-}
-.proprice{
-    margin-left: 10px;
-    color: rgb(247, 12, 51);
-}
-
-.addcart{
-    margin-left: 100px;
-    border: 0ch;
-    background-color: rgb(210, 17, 50);
-    border-radius: 10px;
-    padding-left: 15px;
-    padding-right: 20px;
-    color: white;
-    font-size: 16px;
-}
-.prosort{
-    display: flex;
-    margin-left: 160px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.label{
-    width: 160px;
-    background-color: gray;
-    margin: 10px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    .pro{
+        display: grid;
+        grid-template-columns: repeat(3,380px); 
+        margin-left: 180px;
+        gap: 15px;
+        margin-top: 10px;
+    }
     
-
-}
-.propp{
-    margin-left: 30px;
-    color: black;
-}
+    .proimg{
+        width: 380px;
+        border-radius: 10px;
+    }
+    .prop{
+        margin-left: 10px;
+        color: black;
+    }
+    
+    .desp{
+        margin-left: 10px;
+        color: gray;
+    }
+    
+    .prot{
+        margin-left: 10px;
+    }
+    .proprice{
+        margin-left: 10px;
+        color: rgb(247, 12, 51);
+    }
+    
+    .addcart{
+        margin-left: 82px;
+        border: 0ch;
+        background-color: rgb(210, 17, 50);
+        border-radius: 10px;
+        padding-left: 15px;
+        padding-right: 20px;
+        color: white;
+        font-size: 16px;
+    }
+    .prosort{
+        display: flex;
+        margin: 18px;
+        margin-left: 150px;    
+    }
+    .label{
+        width: 160px;
+        background-color: gray;
+        margin: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;  
+    }
+    
+    .propp{
+        margin-left: 40px;
+        color: black;
+    }
+    
+    .head {
+        text-align: left;
+        margin-left: 180px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    
+    .sortdiv {
+        width: 150px;
+        align-items: left;
+    }
+    
+    .inp {
+        font-size: 16px;
+        font-weight: 600;
+        color: grey;
+        margin-left: 5px;
+    }

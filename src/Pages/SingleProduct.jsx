@@ -15,10 +15,11 @@ import {
   ListItem,
   Divider,
 } from "@chakra-ui/react";
-import cartget from "../Pages/cartget.jpg"
-import delivary from "../Pages/delivary.jpg"
+import cartget from "../Pages/cartget.jpg";
+import delivary from "../Pages/delivary.jpg";
 // import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
-import { MdLocalShipping } from "react-icons/md";
+import { MdLocalShipping  } from "react-icons/md";
+// import { ImSpoonKnife  } from "react-icons/fa";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useParams } from "react-router-dom";
@@ -27,16 +28,14 @@ import { addProductToCart, getBooks } from "../Redux/ProductReducer/action";
 export default function SingleProduct() {
   const dispatch = useDispatch();
   // const id = 1;
-    const {id} = useParams()
-  const [currentProduct, setCurrentProduct] = useState({
-    
-  });
+  const { id } = useParams();
+  const [currentProduct, setCurrentProduct] = useState({});
   const chicken = useSelector((state) => state.reducer.chicken);
 
   useEffect(() => {
     if (chicken.length === 0) {
-      // let cat = chicken;
-      dispatch(getBooks(`/cat/${id}`))
+      let cat = chicken;
+      dispatch(getBooks(cat));
     }
   }, [chicken?.length, dispatch]);
 
@@ -49,42 +48,48 @@ export default function SingleProduct() {
   }, [chicken, id]);
 
   const addToCartHandler = () => {
+    console.log(currentProduct);
     currentProduct && dispatch(addProductToCart(currentProduct));
   };
   console.log(chicken);
   console.log(currentProduct);
 
   return (
-    <Container maxW={"7xl"}>
+    <Container maxW={"7xl"} mt="2rem" boxShadow={" rgba(0, 0, 0, 0.1) 0px 10px 50px"}>
       <SimpleGrid
         columns={{ base: 1, lg: 2 }}
         spacing={{ base: 8, md: 10 }}
         py={{ base: 18, md: 24 }}
+        borderRadius="5px"
       >
-        <Flex>
-          <Image
+        <Flex >
+          <Image          
             rounded={"md"}
             alt={"product image"}
             src={currentProduct.image}
             fit={"contain"}
             align={"center"}
-            w={"100%"}
+            w={"100%"}            
             h={{ base: "100%", sm: "400px", lg: "500px" }}
+            boxShadow={"rgba(0, 0, 0, 0.15) 0px 5px 15px 0px"}
           />
         </Flex>
-        <Stack spacing={{ base: 6, md: 10 }} mt="2.5rem">
-          <Box as={"header"} textAlign="left">
+        <Stack spacing={{ base: 6, md: 10 }} alignItems="left">
+          <Box as={"header"} >
             <Heading
               lineHeight={1.1}
               fontWeight={500}
+              textAlign="left"
               fontSize={{ base: "2xl", sm: "4xl", lg: "2xl" }}
+              
             >
               {currentProduct.title}
             </Heading>
             <Text
               color={useColorModeValue("gray.900", "gray.400")}
-              fontWeight={200}
+              fontWeight={300}
               fontSize={"md"}
+              textAlign="left"
             >
               MRP:₹{currentProduct.price}
             </Text>
@@ -100,12 +105,14 @@ export default function SingleProduct() {
               />
             }
           >
-            <VStack spacing={{ base: 4, sm: 6 }} textAlign="left">
+            <VStack spacing={{ base: 4, sm: 6 }} textAlign="left" >
               <Text
-                fontSize={"md"}
+                
+                
                 color={useColorModeValue("gray.500", "gray.400")}
               >
-                {currentProduct.description}
+                {/* {currentProduct.description} */}
+                With our Chicken Curry Cut on hand, making a delicious chicken curry has never been easier!
               </Text>
               <Text
                 fontSize={"md"}
@@ -141,6 +148,7 @@ export default function SingleProduct() {
               <Divider margin={"5px"} />
               <Flex justifyContent={"space-between"}>
                 <Text>Gross Wt. 526gms</Text>
+                {/* <ImSpoonKnife /> */}
                 <Text>Net wt. 500gms</Text>
               </Flex>
             </Box>
@@ -152,13 +160,12 @@ export default function SingleProduct() {
                   fontWeight={700}
                   fontSize={"xl"}
                 >
-                  {currentProduct.price}
+                  MRP:₹{currentProduct.price}
                 </Text>
                 <Button
                   w="120px"
                   size={"sm"}
-                  bg="
-            #d11243"
+                  bg="#d11243"
                   color={useColorModeValue("white", "gray.900")}
                   textTransform={"uppercase"}
                   _hover={{
@@ -188,12 +195,21 @@ export default function SingleProduct() {
           </Stack>
         </Stack>
       </SimpleGrid>
-      <Box boxSize="full" border="1px solid grey">
-        <Image src={cartget} alt="Dan Abramov" size="full" />
-      </Box>
-      <Box boxSize="full" border="1px solid grey">
-        <Image src={delivary} alt="Dan Abramov" size="full" />
-      </Box>
+      <Image
+        src={cartget}
+        alt="Dan Abramov"
+        size="full"
+        mt="-50px"
+        boxShadow={"rgba(0, 0, 0, 0.15) 0px 5px 15px 0px"}
+      />
+      <Image
+        src={delivary}
+        alt="Dan Abramov"
+        size="full"
+        mt="20px"
+        boxShadow={"rgba(0, 0, 0, 0.15) 0px 5px 15px 0px"}
+      />
     </Container>
   );
 }
+

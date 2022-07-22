@@ -1,65 +1,72 @@
-import React from 'react'
+import React from "react";
 import "./Product.css";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
- 
-import { getBooks } from '../Redux/ProductReducer/action';
- 
-  const SeaAndFish = () => {
-    const dispatch =useDispatch()
-    const fish = useSelector((state) => state.reducer.fish);
-    
-   useEffect(() => {
+
+import { getBooks } from "../Redux/ProductReducer/action";
+import OneFish from "./OneFish";
+import FilterFish from "./FilterFish";
+import { useLocation, useSearchParams } from "react-router-dom";
+
+const SeaAndFish = () => {
+  const dispatch = useDispatch();
+  const fish = useSelector((state) => state.reducer.fish);
+  const [searchParams] = useSearchParams();
+  const location = useLocation();
+
+  useEffect(() => {
+    if (fish.length === 0  || location.search ) {    
+
+      const getShoesParams = {
+        params: {
+          category: searchParams.getAll("category")
       
-    if( fish?.length===0)
-    {
-      dispatch(getBooks("/fish"));
+        },
+      };
+
+      dispatch(getBooks("fish",getShoesParams));
     }
-   
-  }, []);
+  }, [location.search]);
 
-   
-    return (
-      <div>
+  // useEffect(() => {
+  //   if (fish.length === 0  || location.search ) {    
+
+  //     const getShoesParams = {
+  //       params: {
+  //         category: searchParams.getAll("category")
+      
+  //       },
+  //     };
+
+  //     dispatch(getBooks("fish",getShoesParams));
+  //   }
+  // }, [location.search]);
   
-          <div className="prosort">
-               <div className="label">
-                  <label htmlFor="">All</label>
-               <input type="checkbox" />
-               </div>
-               <div  className="label">
-                  <label htmlFor="">Curry Cut</label>
-               <input type="checkbox" />
-               </div>
-               <div  className="label">
-                  <label htmlFor="">Boneless & Mince</label>
-               <input type="checkbox" />
-               </div>
-          </div>
-           <div className="pro">
-        {
-           fish.map((e)=>{
-              return (
-                  <div className="sinpro" key={e.id}>
-              <img   className="proimg" src={e.image} alt="" />
-             <h3 className="prot">{e.title}</h3>
-            <p className="desp">{e.description}</p>
-            <div className="net">
-              <p className="prop"  >{e.wet}</p>
-              <p className="propp" >Pieces {e.qty}</p>
-            </div>
-             <div className="net">
-              <h3 className="proprice"> MRP:${e.price}</h3>
-              <button className="addcart">Add To Cart</button>
-             </div>
-          </div>
-              )
-          })
-        }
-       </div>
+
+  return (
+    <div>
+      <h1 className="head">Fish</h1>
+      <hr width="100%" 
+        size="10" 
+        margin-left="180px"
+        align="center" 
+        color="grey" ></hr>
+      <FilterFish />
+      <hr width="100%" 
+        size="10" 
+        align="center" 
+        color="grey" ></hr>
+      <div className="pro">
+        {fish.map((item) => {
+          return (
+            <div key={item.id}>
+              <OneFish item={item}/>
+            </div>            
+          );
+        })}
       </div>
-    );
-  };
-  
+    </div>
+  );
+};
 
-export default SeaAndFish
+export default SeaAndFish;
