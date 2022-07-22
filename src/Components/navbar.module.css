@@ -1,9 +1,8 @@
 .navbarL{
     width: 100%;
-    height: 70px;
+    height: 80px;
     border: 1px solid red;
-    position: fixed;
-    background-color: #fff;
+    position: relative;
     
 }
 .nav_div1{
@@ -11,8 +10,6 @@
     margin-top: 20px;
     border: 1px solid green;
     display: flex;
-    margin-left: 13%;
-    margin-right: 13%;
 }
 .nav_div1>div{
 margin: auto;
@@ -66,31 +63,4 @@ display: flex;
     height: 56px;
     font-size: 15px!important;
 
-}
-.link_flex{
-    display: flex;
-}
-.login_back_img{
-     background-image: url('https://static3.bigstockphoto.com/3/9/2/large1500/293515042.jpg'); 
-    /* border: 20px solid red; */
-    /* background-color: #D11243; */
-
-}
-.div_font_size{
-    font-size: 10px;
-    font-weight: lighter;
-}
-.div_font_size2{
-    font-size: 20px;
-    font-weight: lighter;
-}
-.map_text{
-    text-align: center;
-    margin: auto;
-    font-size: 24px;
-    font-weight: 500;
-}
-.map_input{
-    width: '700px';
-    margin-top: '500px';
 }
