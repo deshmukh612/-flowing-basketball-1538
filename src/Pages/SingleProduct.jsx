@@ -1,4 +1,4 @@
---------------------------------------import {
+import {
   Box,
   Container,
   Stack,
@@ -22,7 +22,7 @@ import { MdLocalShipping } from "react-icons/md";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useParams } from "react-router-dom";
-import { getBooks } from "../redux/ProductReducer/action";
+import { addProductToCart, getBooks } from "../Redux/ProductReducer/action";
 
 export default function SingleProduct() {
   const dispatch = useDispatch();

@@ -1,4 +1,5 @@
 import * as types from "./actionTypes"
+import axios from "axios"
 
 
 const getBooks =(pro, params)=>(dispatch  )=>{
@@ -102,4 +103,4 @@ const deleteProductCart = (id) => (dispatch) => {
 };
 
  
-export { getShoesFailure,getShoesRequest,getShoesSuccess,addProductToCart, fetchCart, deleteProductCart }
+export { addProductToCart, fetchCart, deleteProductCart,getBooks }

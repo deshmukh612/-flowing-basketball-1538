@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Box } from "@chakra-ui/react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchCart } from "../redux/ProductReducer/action";
+import { fetchCart } from "../Redux/ProductReducer/action";
 
 
 const CartCounter = () => {
