@@ -3,11 +3,11 @@ import "./Product.css";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import axios from "axios";
-import {
-  getShoesFailure,
-  getShoesRequest,
-  getShoesSuccess,
-} from "../Redux/ProductReducer/action";
+// import {
+//   getShoesFailure,
+//   getShoesRequest,
+//   getShoesSuccess,
+// } from "../Redux/ProductReducer/action";
  import {Link} from "react-router-dom"
  import { getBooks } from "../Redux/ProductReducer/action";
  
