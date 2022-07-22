@@ -1,15 +1,15 @@
 import * as types from "./actionTypes"
 
 
-const getShoesRequest= ()=>{
-    return {type : types.GET_SHOES_REQUEST}
+const getBooks =(pro, params)=>(dispatch  )=>{
+  dispatch({type : types.GET_BOOKS_REQUEST})
+
+  axios
+  .get(`http://localhost:8080${pro}`,params)
+  .then((r) =>dispatch({type : types.GET_BOOKS_SUCCESS ,payload : r.data}))
+  .catch((e)=>dispatch({type : types.GET_BOOKS_fAILURE}))   
 }
-const  getShoesSuccess= (payload)=>{
-   return {type : types.GET_SHOES_SUCCESS ,payload}
-}
-const  getShoesFailure = ()=>{
-   return {type : types.GET_SHOES_FAILURE}
-}
+
 
 
 

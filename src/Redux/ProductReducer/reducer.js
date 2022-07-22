@@ -1,33 +1,31 @@
 import * as types from "./actionTypes";
-const initialState = {
+
+const initalstate = {
   chicken: [],
-  fish: [],
   isLoading: false,
   isError: false,
   cart: [],
 };
 
-export const reducer = (state = initialState, action) => {
+const reducer = (state = initalstate, action) => {
   const { type, payload } = action;
 
   switch (type) {
-    case types.GET_SHOES_REQUEST:
+    case types.GET_BOOKS_REQUEST:
       return {
         ...state,
+        isLoading: false,
+        isError: false,
+      };
+    case types.GET_BOOKS_SUCCESS:
+      return {
+        ...state,
+        chicken: payload,
         isLoading: true,
         isError: false,
       };
 
-    case types.GET_SHOES_SUCCESS:
-      return {
-        ...state,
-        chicken: payload,
-        fish: payload,
-        isLoading: false,
-        isError: false,
-      };
-
-    case types.GET_SHOES_FAILURE:
+    case types.GET_BOOKS_fAILURE:
       return {
         ...state,
         isLoading: false,
@@ -71,18 +69,18 @@ export const reducer = (state = initialState, action) => {
         isLoading: false,
         isError: true,
       };
-    case types.REMOVE_PRODUCT_CART_REQUEST:
-      return {
-        ...state,
-        isLoading: true,
+      case types.REMOVE_PRODUCT_CART_REQUEST:
+        return {
+          ...state,
+          isLoading: true,
         isError: false,
-      };
-    case types.REMOVE_PRODUCT_CART_FAILURE:
-      return {
-        ...state,
-        isLoading: false,
+        };
+        case types.REMOVE_PRODUCT_CART_FAILURE:
+        return {
+          ...state,
+          isLoading: false,
         isError: true,
-      };
+        }
     default:
       return state;
   }
