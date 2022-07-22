@@ -7,7 +7,7 @@ const initialState = {
   cart: [],
 };
 
-export const reducer = (state = initialState, action) => {
+ const reducer = (state = initialState, action) => {
   const { type, payload } = action;
 
   switch (type) {

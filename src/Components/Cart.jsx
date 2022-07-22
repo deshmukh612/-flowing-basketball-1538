@@ -21,7 +21,7 @@ import {
 import navMod from "../Components/navbar.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { CloseIcon } from "@chakra-ui/icons";
-import { deleteProductCart } from "../redux/ProductReducer/action";
+import { deleteProductCart } from "../Redux/ProductReducer/action";
 
 const Cart = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();

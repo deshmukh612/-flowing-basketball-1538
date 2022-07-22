@@ -9,7 +9,7 @@ import {
   getShoesSuccess,
 } from "../Redux/ProductReducer/action";
  import {Link} from "react-router-dom"
- import { getBooks } from "../redux/ProductReducer/action";
+ import { getBooks } from "../Redux/ProductReducer/action";
  
 const Products = () => {
   const dispatch = useDispatch();

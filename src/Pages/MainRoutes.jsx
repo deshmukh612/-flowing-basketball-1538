@@ -7,7 +7,7 @@ import SBCIndevidualPage from './SBCIndevidualPage'
 import Products from "../Components/Products"
 import SeaAndFish from "../Components/SeaAndFish"
 import SuccessPage from './SuccessPage'
-
+import SingleProduct from "./SingleProduct";
 
 
 
@@ -28,7 +28,7 @@ import Home from "./Home";
 import SBCIndevidualPage from "./SBCIndevidualPage";
 import Products from "../Components/Products";
 import SeaAndFish from "../Components/SeaAndFish";
-import SingleProduct from "./SingleProduct"; */}
+ */}
 
 
 
