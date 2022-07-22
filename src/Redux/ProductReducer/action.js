@@ -6,7 +6,7 @@ const getBooks =(pro, params)=>(dispatch  )=>{
   dispatch({type : types.GET_BOOKS_REQUEST})
 
   axios
-  .get(`http://localhost:8080${pro}`,params)
+  .get(`http://localhost:8080/${pro}`,params)
   .then((r) =>dispatch({type : types.GET_BOOKS_SUCCESS ,payload : r.data}))
   .catch((e)=>dispatch({type : types.GET_BOOKS_fAILURE}))   
 }
