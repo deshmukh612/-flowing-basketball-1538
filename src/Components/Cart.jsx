@@ -19,7 +19,7 @@ import {
   Flex,
   Divider,
 } from "@chakra-ui/react";
-import navMod from "../Components/navbar.module.css";
+import navMod from "../Components/Navbar.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { CloseIcon } from "@chakra-ui/icons";
 import cartprod from "../Pages/cartprod.jpg";

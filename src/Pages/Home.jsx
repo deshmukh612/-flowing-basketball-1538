@@ -16,7 +16,20 @@ const Home = () => {
   return (
     <div>
 
- <Payment/> 
+
+<Slider1G/>
+
+{/* <ShopByCate h2tag={"Shop by categories"}/> */}
+<ShopByCate h2tag={"Shop by categories"}/>
+           <Adds/>
+
+        <ShopByCate h2tag={"Explore by categories"}/>
+        <CheckoutBlog/>
+
+        <NewsSlider/>
+
+         <Footer/>
+ {/* <Payment/>  */}
  
 
 {/* <Mpayment/> */}
@@ -26,17 +39,13 @@ const Home = () => {
 
 {/* <CheckoutBlog/> */}
      
-        {/* <Slider1G/>
-        <ShopByCate h2tag={"Shop by categories"}/>
-           <Adds/>
-
-        <ShopByCate h2tag={"Explore by categories"}/>
-        <CheckoutBlog/>
-        <NewsSlider/> */}
+        {/* 
+       
+        */}
 
         {/* <div className={home.footerDiv}> */}
        
-        {/* <Footer/> */}
+       
         {/* </div> */}
     </div>
   )
