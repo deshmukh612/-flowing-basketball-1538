@@ -3,7 +3,7 @@ import homeimg from "../Pages/homeImg.png"
 
 const Adds = () => {
   return (
-    <div>
+    <div style={{marginLeft:"100px"}}>
       
       <img src= {homeimg} alt="" />
     </div>

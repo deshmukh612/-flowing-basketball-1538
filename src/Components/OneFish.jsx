@@ -21,7 +21,7 @@ const OneFish = ({item}) => {
                 <p className="propp">Pieces {qty}</p>
               </div></Link>
               <div className="net">
-                <h3 className="proprice"> MRP:${price}</h3>
+                <h3 className="proprice"> MRP:₹{price}</h3>
                 <button className="addcart" onClick={addToCartHandler}>Add To Cart</button>
               </div>
             </div>

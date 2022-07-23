@@ -21,7 +21,7 @@ import {
 const Map = () => {
 
 const [city,setCity]=useState('Banglore')
-const [acity,setAcity]=useState('near fdasfasdfasdfasdfasdfasdnew town')
+const [acity,setAcity]=useState('near Indiranagar,Chinnaswamy Stadium')
 useEffect(()=>{
 
 },[city,acity])
@@ -50,6 +50,8 @@ useEffect(()=>{
         <Box className={navMod.map_text}>Choose Delivery Location</Box>
             <Input w={'700px'} 
             margin='auto'
+            mt="30px"
+            ml="50px"
             className={navMod.map_input}
             id='map_input'
             onChange={(e)=>{

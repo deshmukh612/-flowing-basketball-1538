@@ -24,13 +24,16 @@ export const Muskan = () => {
   const submitButton = ()=>{
     setCircle(true);
     navigate("/deliverySummary")
+
   }
+
+
 
   return (
     <>
     <div className="divTop"></div>
     <div className="main">
-      <div className="Container">
+      <div className="Container" >
         {/* <div className=""></div> */}
         <div  className="inputdiv">
           <FormControl >
@@ -76,11 +79,12 @@ export const Muskan = () => {
             <ListItem>Facilisis in pretium nisl aliquet</ListItem>
             
           </UnorderedList> */}
-          {circle ? <div id="circle" style={{backgroundColor:"green" }}>
+    
+    {circle ? <div id="circle" style={{backgroundColor:"green" }}>
                 
                 </div> : <div id="circle" style={{backgroundColor:"red"}}>
                 
-                </div>} <small className="address" style={{marginLeft:"50px", maginTop:"20px"}}> Choose adress</small>
+                </div>} <small className="delivery" style={{marginLeft:"50px"}}> Choose address</small>
                 {circle ? <div id="line" style={{backgroundColor:"green"}}>
                 
                 </div> : <div id="line" style={{backgroundColor:"gray"}}>
@@ -91,7 +95,8 @@ export const Muskan = () => {
                  </div> <div className="delivery" style={{color:"black",fontWeight:"bolder"}}>
                   delivery summary</div></>  : <><div id="circle" style={{backgroundColor:"gray"}}>
                 
-                </div><div className="delivery" style={{marginLeft:"50px", maginTop:"25px"}} >delivery summary</div></> }
+                </div><div className="delivery" style={{marginLeft:"50px"}} >
+                  delivery summary</div></> }
                 {circle ? <div id="line" style={{backgroundColor:"green"}}>
                 
                 </div> : <div id="line" style={{backgroundColor:"gray"}}>
@@ -101,7 +106,7 @@ export const Muskan = () => {
                 
                 </div> <div className="delivery" style={{color:"black",fontWeight:"bolder"}}>Payment Method</div></>  : <><div id="circle" style={{backgroundColor:"gray"}}>
                 
-                </div><div className="delivery" style={{marginLeft:"50px", maginTop:"25px"}}>Payment Method</div></> }
+                </div><div className="delivery" style={{marginLeft:"50px"}}>Payment Method</div></> }
                 
         </div>
        
