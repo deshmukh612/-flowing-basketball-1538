@@ -40,10 +40,6 @@ const Cart = () => {
     dispatch(deleteProductCart(id));
   }; 
   
-  // const onCloseHandler = () => {
-  //   navigate("/")
-  // }
-
   useEffect(() => {
     if(cart.length){
       const total = cart.reduce((acc, elem) => {
@@ -142,7 +138,10 @@ const Cart = () => {
             <Button variant="outline" mr={3}>
               Total:₹{amount}
             </Button>
-            <Button colorScheme="D11243" className={navMod.cart_ptc} onClick={onClose}>
+            <Button colorScheme="D11243" className={navMod.cart_ptc} onClick={() => {
+              onClose()
+              navigate('/address')
+            }}>
               Procees to checkout
             </Button>
           </DrawerFooter>

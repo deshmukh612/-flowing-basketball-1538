@@ -31,7 +31,7 @@ const Products = () => {
 
   
   return (
-    <div>
+    <div >
       <h1 className="head">Chicken</h1>
       <hr width="100%" 
         size="10" 
