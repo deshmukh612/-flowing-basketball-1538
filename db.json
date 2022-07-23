@@ -393,8 +393,17 @@
       "image": "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_nvvktwxg5of/12/prod_display_image/1633921452.0664--2021-10-1108:34:12--1818"
     }
   ],
-  "cart" :[
-     
+  "cart": [
+    {
+      "id": 3,
+      "image": "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_av4kgtb3l1h/12/prod_display_image/1631078028.6325--2021-09-0810:43:48--1818",
+      "title": "Chicken Curry Cut - Small Pieces ",
+      "description": "Bone-in chunky pieces of skinless.",
+      "wet": "Net wt: 1000gms",
+      "category": "CurryCuts",
+      "qty": "Gross: 1026gms",
+      "price": 125
+    }
   ],
   "posts": [
     {
@@ -403,81 +412,66 @@
       "author": "typicode"
     }
   ],
-
-  "sbcategory" :[
+  "sbcategory": [
     {
-       "id":1,
+      "id": 1,
       "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/539819fa-f8f5-6148-d407-95522fa17a28/original/Todays-deal21.png",
       "name": "Today Deals"
     },
-
     {
-      "id":2,
-     "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/479a9750-d9a2-33ff-0693-3044a9dcae91/original/Chicken.png",
-     "name": "Chicken"
-   },
-   {
-    "id":3,
-   "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/46494180-ff34-2236-4240-da12222c4d23/original/Fish___Seafood.png",
-   "name": "Fish___Seafood"
- },
-
- {
-  "id":4,
- "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/952cc910-319c-0b5d-fa34-373f05f0917a/original/Mutton.png",
- "name": "Mutton"
-},
-
-{
-  "id":5,
- "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/0a8c4f08-15e7-12e5-a696-286cddadf373/original/RTC_(2).png",
- "name": "Ready To Cook"
-},
-
-{
-  "id":6,
- "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/b528b5d9-aae1-8814-99d5-8642e2ee3676/original/Prawns.png",
- "name": "Prawns"
-},
-
-{
-  "id":7,
- "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/d08157a7-8828-4978-eb3f-3408cfe7d1f9/original/Venus_(1).png",
- "name": "Cold Cuts"
-},
-
-{
-  "id":8,
- "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/066b2145-5678-c1c6-5a05-5e5e53840101/original/Continental-egg-spread.png",
- "name": "Spreads"
-},
-
-{
-  "id":9,
- "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/54771c04-5aae-094d-8739-b22d09ab284e/original/Eggs.png",
- "name": "Eggs"
-},
-
-{
-  "id":10,
- "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/8f6c3a69-7867-05d5-9367-ed091bdf3c61/original/hyd-chicken.png",
- "name": "Biryani & Kabab"
-},
-
-{
-  "id":11,
- "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/b8169e6d-59ae-ba6f-f839-ec0883a9742e/original/Combo2.png",
- "name": "Combas"
-},
-
-{
-  "id":12,
- "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/804e2c47-aa87-e548-8d19-789b1fccb8bb/original/GFD.png",
- "name": "Featured Collections"
-}
-   
-   
- 
+      "id": 2,
+      "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/479a9750-d9a2-33ff-0693-3044a9dcae91/original/Chicken.png",
+      "name": "Chicken"
+    },
+    {
+      "id": 3,
+      "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/46494180-ff34-2236-4240-da12222c4d23/original/Fish___Seafood.png",
+      "name": "Fish___Seafood"
+    },
+    {
+      "id": 4,
+      "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/952cc910-319c-0b5d-fa34-373f05f0917a/original/Mutton.png",
+      "name": "Mutton"
+    },
+    {
+      "id": 5,
+      "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/0a8c4f08-15e7-12e5-a696-286cddadf373/original/RTC_(2).png",
+      "name": "Ready To Cook"
+    },
+    {
+      "id": 6,
+      "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/b528b5d9-aae1-8814-99d5-8642e2ee3676/original/Prawns.png",
+      "name": "Prawns"
+    },
+    {
+      "id": 7,
+      "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/d08157a7-8828-4978-eb3f-3408cfe7d1f9/original/Venus_(1).png",
+      "name": "Cold Cuts"
+    },
+    {
+      "id": 8,
+      "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/066b2145-5678-c1c6-5a05-5e5e53840101/original/Continental-egg-spread.png",
+      "name": "Spreads"
+    },
+    {
+      "id": 9,
+      "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/54771c04-5aae-094d-8739-b22d09ab284e/original/Eggs.png",
+      "name": "Eggs"
+    },
+    {
+      "id": 10,
+      "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/8f6c3a69-7867-05d5-9367-ed091bdf3c61/original/hyd-chicken.png",
+      "name": "Biryani & Kabab"
+    },
+    {
+      "id": 11,
+      "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/b8169e6d-59ae-ba6f-f839-ec0883a9742e/original/Combo2.png",
+      "name": "Combas"
+    },
+    {
+      "id": 12,
+      "img": "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/804e2c47-aa87-e548-8d19-789b1fccb8bb/original/GFD.png",
+      "name": "Featured Collections"
+    }
   ]
-
 }

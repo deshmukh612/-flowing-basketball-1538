@@ -25,14 +25,14 @@ const Navbar = () => {
                 </div>
                 <div>
                     
-                        <div><img src="https://www.licious.in/img/rebranding/location_icon.svg" alt="" /></div>
+                        <div className={navMod.img_nav}><img src="https://www.licious.in/img/rebranding/location_icon.svg" alt="" /></div>
                         <div><Map/></div>
 
                 </div>
                 <div><Searchbar/></div>
                 <div>
                 
-                        <div><img src="https://www.licious.in/img/rebranding/category-dropdown-icon.svg" alt="" /></div>
+                        <div className={navMod.img_nav}><img src="https://www.licious.in/img/rebranding/category-dropdown-icon.svg" alt="" /></div>
                         <div><Categories/></div>
                     
                 </div>

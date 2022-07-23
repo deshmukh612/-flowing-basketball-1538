@@ -25,7 +25,7 @@ console.log('svalue',bag)
   
 if(bag=="products"){Navigate('/products')}
 if(bag=="chicken"){Navigate('/Chicken')}
-if(bag=="sea" || bag=='fish'){Navigate('/seaAndfish')}
+if(bag=="sea" || bag=='fish'){Navigate('/fish')}
 if(bag=="id"){Navigate('/products')}
 if(bag=="products"){Navigate('/products')}
 if(bag=="products"){Navigate('/products')}
