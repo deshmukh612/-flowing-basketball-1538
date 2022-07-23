@@ -15,7 +15,7 @@
 .Container{
     display: flex;
     /* padding-left: 50px; */
-    /* margin-left: 50px; */
+    margin-left: 50px;
 }
 
 
@@ -52,6 +52,8 @@
 #map{
     height: 100%;
     width: 100%;
+   
+    
 }
 .mapdiv{
     margin-left: -5px;
@@ -63,6 +65,7 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     padding-left: 10px;
     padding-right: 10px;
+   
 }
 .slider{
     background-color: #f7f6f6;
@@ -76,32 +79,38 @@
     height: 15px;
     border-radius: 50%;
     position: relative;
-    top: 30px;
+    top: 25px;
     
 }
 #line{
     height: 70px;
     width: 3px;
     position: relative;
-    left: 10px;
+    left: 15px;
     bottom: -10px;
 }
 .adress{
     color: darkslategray;
     font-weight: bolder;
     font-size: 50px;
+    margin-right: 50px;
+
 }
 .delivery{
     color: grey;
     font-weight: bolder;
     font-size: 20px;
-
-}
+    }
 #add{
     font-weight: bold;
     text-align:left;
     color: lightslategray   
     
+}
+
+.divTop {
+    height: 90px;
+    width: 10px;
 }
 
 .divTop {

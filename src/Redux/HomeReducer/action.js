@@ -9,7 +9,7 @@ const  getShopByCategory = ()=>(dispatch)=>{
 
     dispatch({type : types.GET_SHOP_BY_CATEGORY_REQUEST})
 
-    return axios.get("http://localhost:8080/sbcategory")
+    return axios.get("https://shrawani.herokuapp.com/sbcategory")
       .then((res)=>{
 
         // console.log(res.data)

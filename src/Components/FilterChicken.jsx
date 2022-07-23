@@ -32,8 +32,7 @@ const FilterChicken = () => {
   }, [category, dispatch, setSearhParams]);
 
   return (
-    <div>
-      
+    <div>      
       <div className="prosort">
         <div className="sortdiv">
           <input          

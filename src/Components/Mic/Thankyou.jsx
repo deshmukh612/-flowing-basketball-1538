@@ -4,7 +4,7 @@ export const Thankyou = ()=>{
     const navigate = useNavigate();
     setTimeout(() => {
         navigate("/")
-    }, 4000);
+    }, 12000);
     return(
         <>
         <div style={{marginTop:"100px"}}></div>

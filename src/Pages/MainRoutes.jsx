@@ -12,6 +12,7 @@ import {Muskan} from "../Components/Mic/Muskan"
 import {Payment3} from "../Components/Mic/Payment3"
 import {Thankyou} from "../Components/Mic/Thankyou"
 import Footer from '../Components/Footer'
+import Payment from './Payment'
 
 
 
@@ -50,6 +51,7 @@ const MainRoutes = () => {
         <Route path ="/fish/:id" element ={<SingleProduct />}/>
         <Route path ="/address" element ={<Muskan />}/>
         <Route path ="/deliverySummary" element ={<Payment3 />}/>
+        <Route path ="/payment" element ={<Payment/> }/>
         <Route path ="/thankyou" element ={<Thankyou />}/>
       </Routes>
       <Footer/>
