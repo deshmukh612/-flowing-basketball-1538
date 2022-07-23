@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 import { useState } from "react";
 import { useNavigate } from "react-router";
+import { useSelector } from "react-redux";
 // import from "react";
 
 // export const P = () => {
@@ -26,11 +27,13 @@ export const Payment3 = () => {
   let navigate = useNavigate()
   const [circle, setCircle] = useState(false);
   const [buttonOn, setButtonOn] = useState(false);
+  const cart = useSelector((state) => state.reducer.cart);
 
   const submitButton = () => {
     setCircle(true);
-    navigate('/thankyou')
+    navigate('/payment')
   };
+  console.log(cart)
   return (
     <>
      <div style={{marginTop:"120px"}}></div>
@@ -59,7 +62,33 @@ export const Payment3 = () => {
               </FormControl>
             </div>
 
-            <div style={{ display: "flex", margin: "2rem" }}>
+            
+        <div  style={{ display: "flex", justifyContent:"space-between", margin: "2rem"}}>
+        {cart.map((item) => {
+          return (
+            <div key={item.id} style={{border:"1px solid gray",display: "flex", width:"330px", height:"90px", borderRadius:"5px"}}>
+              <div style={{margin:"5px"}}>
+                <img
+                  style={{ width: "80px" }}
+                  src={item.image}
+                ></img>
+              </div>
+              <div >
+                <p style={{fonySize: "12px"}}>{item.title}</p>
+                <p>
+                  {" "}
+                  <span>MRP:₹{item.price}</span> <span>Pieces {item.qty}</span>{" "}
+                </p>
+              </div>                   
+            
+            </div>
+          );
+        })}
+            </div>
+
+            {/* <div style={{ display: "flex", margin: "2rem" }}>           
+
+              
               <div style={{}}>
                 <img
                   style={{ width: "100px" }}
@@ -73,7 +102,7 @@ export const Payment3 = () => {
                   <span>450gms</span> <span>Rs. 199</span> <span>Qty: 1</span>{" "}
                 </p>
               </div>
-            </div>
+            </div> */}
             <div>
               <Button colorScheme="blue" id="btn" onClick={submitButton}>
                 Proceed to Payment
@@ -81,21 +110,11 @@ export const Payment3 = () => {
             </div>
           </div>
           <div className="div2">
-          {circle ? <div id="circle" style={{backgroundColor:"green"}}>
+          {circle ? <div id="circle" style={{backgroundColor:"green" }}>
                 
-                </div> : <div id="circle" style={{backgroundColor:"green"}}>
+                </div> : <div id="circle" style={{backgroundColor:"red"}}>
                 
-                </div>} <div className="adress"> Choose adress</div>
-                {circle ? <div id="line" style={{backgroundColor:"green"}}>
-                
-                </div> : <div id="line" style={{backgroundColor:"gray"}}>
-                
-                </div>} 
-                {circle ?<><div id="circle" style={{backgroundColor:"green"}}>
-                
-                </div> <div className="delivery" style={{color:"black",fontWeight:"bolder"}}>Delivery summary</div></>  : <><div id="circle" style={{backgroundColor:"red"}}>
-                
-                </div><div className="delivery" >Delivery summary</div></> }
+                </div>} <small className="delivery" style={{marginLeft:"50px"}}> Choose address</small>
                 {circle ? <div id="line" style={{backgroundColor:"green"}}>
                 
                 </div> : <div id="line" style={{backgroundColor:"gray"}}>
@@ -103,9 +122,21 @@ export const Payment3 = () => {
                 </div>} 
                 {circle ?<><div id="circle" style={{backgroundColor:"red"}}>
                 
-                </div> <div className="delivery" >Payment Method</div></>  : <><div id="circle" style={{backgroundColor:"gray"}}>
+                 </div> <div className="delivery" style={{color:"black",fontWeight:"bolder"}}>
+                  delivery summary</div></>  : <><div id="circle" style={{backgroundColor:"gray"}}>
                 
-                </div><div className="delivery" >Payment Method</div></> }
+                </div><div className="delivery" style={{marginLeft:"50px"}}>
+                  delivery summary</div></> }
+                {circle ? <div id="line" style={{backgroundColor:"green"}}>
+                
+                </div> : <div id="line" style={{backgroundColor:"gray"}}>
+                
+                </div>} 
+                {circle ?<><div id="circle" style={{backgroundColor:"red"}}>
+                
+                </div> <div className="delivery" style={{color:"black",fontWeight:"bolder"}}>Payment Method</div></>  : <><div id="circle" style={{backgroundColor:"gray"}}>
+                
+                </div><div className="delivery" style={{marginLeft:"50px"}}>Payment Method</div></> }
                 
           </div>
         </div>

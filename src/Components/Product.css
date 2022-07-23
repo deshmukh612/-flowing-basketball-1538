@@ -57,7 +57,7 @@
     .prosort{
         display: flex;
         margin: 18px;
-        margin-left: 150px;    
+        margin-left: 180px;    
     }
     .label{
         width: 160px;
@@ -76,13 +76,18 @@
     
     .head {
         text-align: left;
-        margin-left: 165px;
+        margin-left: 180px;
         font-size: 20px;
         font-weight: bold;
         margin-top: 80px;
     }
     
     .sortdiv {
+        width: 180px;
+        align-items: left;
+    }
+
+    .sortdiv1 {
         width: 150px;
         align-items: left;
     }

@@ -395,14 +395,14 @@
   ],
   "cart": [
     {
-      "id": 3,
-      "image": "https://d2407na1z3fc0t.cloudfront.net/prodDev/pr_av4kgtb3l1h/12/prod_display_image/1631078028.6325--2021-09-0810:43:48--1818",
-      "title": "Chicken Curry Cut - Small Pieces ",
-      "description": "Bone-in chunky pieces of skinless.",
-      "wet": "Net wt: 1000gms",
+      "id": 2,
+      "image": "https://dao54xqhg9jfa.cloudfront.net/ProductMerchantdising/b09b43a2-f520-264f-1a29-f47cb0e4fad0/original/1584770326.4209--2020-03-2111_28_46--738.jpeg",
+      "title": "Chicken Drumstick - Pack Of 6",
+      "description": "Small pieces of bone-in",
+      "wet": "Net wt: 500gms",
       "category": "CurryCuts",
-      "qty": "Gross: 1026gms",
-      "price": 125
+      "qty": "Gross: 526gms",
+      "price": 325
     }
   ],
   "posts": [
