@@ -8,6 +8,10 @@ import Products from "../Components/Products"
 import SeaAndFish from "../Components/SeaAndFish"
 import SuccessPage from './SuccessPage'
 import SingleProduct from "./SingleProduct";
+import {Muskan} from "../Components/Mic/Muskan"
+import {Payment3} from "../Components/Mic/Payment3"
+import {Thankyou} from "../Components/Mic/Thankyou"
+import Footer from '../Components/Footer'
 
 
 
@@ -44,7 +48,11 @@ const MainRoutes = () => {
         <Route path ="/chicken/:id" element ={<SingleProduct/>}/>
         <Route path ="/fish" element ={<SeaAndFish />}/>
         <Route path ="/fish/:id" element ={<SingleProduct />}/>
+        <Route path ="/address" element ={<Muskan />}/>
+        <Route path ="/deliverySummary" element ={<Payment3 />}/>
+        <Route path ="/thankyou" element ={<Thankyou />}/>
       </Routes>
+      <Footer/>
     </>
   );
 }

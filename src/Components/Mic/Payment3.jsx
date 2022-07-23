@@ -33,6 +33,7 @@ export const Payment3 = () => {
   };
   return (
     <>
+     <div style={{marginTop:"120px"}}></div>
       <div className="maindiv">
         <div className="container">
           <div className="div1">

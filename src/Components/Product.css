@@ -76,10 +76,10 @@
     
     .head {
         text-align: left;
-        margin-left: 180px;
+        margin-left: 165px;
         font-size: 20px;
         font-weight: bold;
-        margin-top: 20px;
+        margin-top: 80px;
     }
     
     .sortdiv {
@@ -93,3 +93,5 @@
         color: grey;
         margin-left: 5px;
     }
+
+   

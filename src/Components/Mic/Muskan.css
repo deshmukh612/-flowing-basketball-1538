@@ -10,14 +10,19 @@
     background-color: #f7f6f6;
     /* padding-top: 20px; */
     /* margin: 20px; */
+   
 }
 .Container{
     display: flex;
-
+    /* padding-left: 50px; */
+    /* margin-left: 50px; */
 }
+
+
 .Container>div{
     width: 50%;
     height: 500px;
+    
     /* border: 2px solid teal; */
     /* margin: 10px; */
     
@@ -67,11 +72,12 @@
 }
 #circle{
     border: 1px solid white;
-    width: 6%;
+    width: 30px;
     height: 15px;
     border-radius: 50%;
     position: relative;
     top: 30px;
+    
 }
 #line{
     height: 70px;
@@ -83,7 +89,7 @@
 .adress{
     color: darkslategray;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 50px;
 }
 .delivery{
     color: grey;
@@ -94,7 +100,11 @@
 #add{
     font-weight: bold;
     text-align:left;
-    color: lightslategray
+    color: lightslategray   
     
-    
+}
+
+.divTop {
+    height: 90px;
+    width: 10px;
 }

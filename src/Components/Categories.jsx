@@ -40,7 +40,7 @@ const Categories = () => {
      
     </MenuItem>
     <MenuItem minH='40px'>
-        <Link className={navMod.link_flex} to={'/'}> <Image
+        <Link className={navMod.link_flex} to={'/chicken'}> <Image
         boxSize='2.3rem'
         borderRadius='5px'
         src="https://dao54xqhg9jfa.cloudfront.net/OMS-Category/479a9750-d9a2-33ff-0693-3044a9dcae91/original/Chicken.png"      
@@ -53,7 +53,7 @@ const Categories = () => {
      
     </MenuItem>
     <MenuItem minH='48px'>
-        <Link className={navMod.link_flex} to={'/'} >
+        <Link className={navMod.link_flex} to={'/fish'} >
         <Image
         boxSize='2.3rem'
         borderRadius='5px'
@@ -66,7 +66,7 @@ const Categories = () => {
      
     </MenuItem>
     <MenuItem minH='48px'>
-        <Link className={navMod.link_flex} to={'/'} >
+        <Link className={navMod.link_flex} to={'/fish'} >
         <Image
         boxSize='2.3rem'
         borderRadius='5px'
@@ -80,7 +80,7 @@ const Categories = () => {
     </MenuItem>
 
     <MenuItem minH='48px'>
-        <Link className={navMod.link_flex} to={'/'} >
+        <Link className={navMod.link_flex} to={'/fish'} >
         <Image
         boxSize='2.3rem'
         borderRadius='5px'
@@ -93,7 +93,7 @@ const Categories = () => {
      
     </MenuItem>
     <MenuItem minH='48px'>
-        <Link className={navMod.link_flex} to={'/'} >
+        <Link className={navMod.link_flex} to={'/fish'} >
         <Image
         boxSize='2.3rem'
         borderRadius='5px'
@@ -107,7 +107,7 @@ const Categories = () => {
     </MenuItem>
   
     <MenuItem minH='48px'>
-        <Link className={navMod.link_flex} to={'/'} >
+        <Link className={navMod.link_flex} to={'/fish'} >
         <Image
         boxSize='2.3rem'
         borderRadius='5px'
@@ -120,7 +120,7 @@ const Categories = () => {
      
     </MenuItem>
     <MenuItem minH='48px'>
-        <Link className={navMod.link_flex} to={'/'} >
+        <Link className={navMod.link_flex} to={'/fish'} >
         <Image
        boxSize='2.3rem'
        borderRadius='5px'
@@ -133,7 +133,7 @@ const Categories = () => {
      
     </MenuItem>
     <MenuItem minH='48px'>
-        <Link className={navMod.link_flex} to={'/'} >
+        <Link className={navMod.link_flex} to={'/fish'} >
         <Image
        boxSize='2.3rem'
        borderRadius='5px'
@@ -146,7 +146,7 @@ const Categories = () => {
      
     </MenuItem>
     <MenuItem minH='48px'>
-        <Link className={navMod.link_flex} to={'/'} >
+        <Link className={navMod.link_flex} to={'/fish'} >
         <Image
         boxSize='2.3rem'
         borderRadius='5px'
@@ -159,7 +159,7 @@ const Categories = () => {
      
     </MenuItem>
     <MenuItem minH='48px'>
-        <Link className={navMod.link_flex} to={'/'} >
+        <Link className={navMod.link_flex} to={'/fish'} >
         <Image
         boxSize='2.3rem'
         borderRadius='5px'
