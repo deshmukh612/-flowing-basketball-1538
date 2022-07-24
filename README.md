@@ -27,7 +27,7 @@ Licious is India's first D2C Unicorn, headquartered in Bengaluru, Karnataka, Ind
 
 ### Presentation
 
-[Presentation Video](https://drive.google.com/file/d/1jd3jWLAHgU-pCgQFxHeRAM2kvthXenPr/view)
+[Presentation Video](https://drive.google.com/file/d/1LpLZKPakKJdsG6fCnWekXdF4XrBKo3qn/view?usp=drivesdk)
 
 ### Blog
 
