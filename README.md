@@ -2,7 +2,7 @@
 
 This collaborative project is a clone of the [Licious](https://www.licious.in/) website. We as a team of 5 members cloned this website during our project construction week of Unit-4 in Masai School, Bangalore.
 
-IndiaMART is India’s largest online B2B marketplace, connecting buyers with suppliers. With 60% market share of the online B2B Classified space in India, the channel focuses on providing a platform to Small & Medium Enterprises (SMEs), Large Enterprises as well as individuals. Founded in 1999, the company’s mission is ‘to make doing business easy’.
+Licious is India's first D2C Unicorn, headquartered in Bengaluru, Karnataka, India.The company operates on a farm-to-fork model, owning the entire back-end supply chain and cold chain.It operates in more than 25 Indian cities.Licious is the first company in the sector to have pledged towards a complete ESG compliance.
 
 ## Deployed Site
 
