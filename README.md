@@ -1,3 +1,77 @@
+# Licious Clone
+
+This collaborative project is a clone of the [Licious](https://www.licious.in/) website. We as a team of 5 members cloned this website during our project construction week of Unit-4 in Masai School, Bangalore.
+
+IndiaMART is India’s largest online B2B marketplace, connecting buyers with suppliers. With 60% market share of the online B2B Classified space in India, the channel focuses on providing a platform to Small & Medium Enterprises (SMEs), Large Enterprises as well as individuals. Founded in 1999, the company’s mission is ‘to make doing business easy’.
+
+## Deployed Site
+
+[licious Clone](https://licious-flow.netlify.app/)
+
+### Tech Stack
+
+- HTML | CSS | JavaScript | React | Redux | Redux-Thunk
+
+### Library Used
+
+- Chakra UI
+- Bootstrap CSS
+
+### Contributers
+
+- [@deshmukh612](https://github.com/deshmukh612)
+- [@sgovind158](https://github.com/sgovind158)
+- [@MohitKawle](https://github.com/MohitKawle)
+- [@shrawaninilange](https://github.com/shrawaninilange)
+- [@mayra111](https://github.com/mayra111)
+
+### Presentation
+
+[Presentation Video](https://drive.google.com/file/d/1jd3jWLAHgU-pCgQFxHeRAM2kvthXenPr/view)
+
+### Blog
+
+[Licious Clone Blog](https://medium.com/@sanjayanganesan/cloning-blue-heaven-cosmetics-page-from-indiamart-website-2671b7c8463c)
+
+## Wbsite Sneak Peeks
+
+- **Home Page**
+
+![Home Page](./Sneak%20Peeks/Home.png?raw=true)
+
+- **Sign In**
+
+![Sign In](./Sneak%20Peeks/Login.png?raw=true)
+
+- **Products**
+
+![Products](./Sneak%20Peeks/Category.png?raw=true)
+
+- **Details Page**
+
+![Details Page](./Sneak%20Peeks/DetailsPage.png?raw=true)
+
+- **Cart Drawer**
+
+![Cart Drawer](./Sneak%20Peeks/Cart.png?raw=true)
+
+- **Address Page**
+
+![Address Page](./Sneak%20Peeks/Address.png?raw=true)
+
+- **Summery Page**
+
+![Summery Page](./Sneak%20Peeks/Summery.png?raw=true)
+
+- **Payment Page**
+
+![Payment Page](./Sneak%20Peeks/Payment.png?raw=true)
+
+- **Thank You**
+
+![Thank You](./Sneak%20Peeks/Thankyou.png?raw=true)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
