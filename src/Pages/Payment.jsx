@@ -310,7 +310,7 @@ const Payment = () => {
                   <spen>Securely save card for future use</spen>
                   <br />
                   <button onClick={(e) => successPage(e)}>
-                    Pay &#8377;115
+                    Pay &#8377;{amount+39}
                   </button>
                 </form>
               </div>
