@@ -6,12 +6,13 @@ import { useSelector,useDispatch } from 'react-redux/es/exports'
 import sbCate from "../Components/shopByCate.module.css"
 import { getShopByCategory } from '../Redux/HomeReducer/action'
 import {Link } from "react-router-dom"
-
+import { useMediaQuery } from '@chakra-ui/react'
 const ShopByCate = ({h2tag}) => {
     const sbArray = useSelector((state)=> state.homeReducer.sbArray)
-    // console.log(sbArray)
+    const [isLargerThan1280] = useMediaQuery('(min-width: 1280px)')
+    console.log(isLargerThan1280)
     const dispatch = useDispatch()
-
+  
    
     const property = {
         imageUrl: 'https://bit.ly/2Z4KKcF',
@@ -42,7 +43,7 @@ const ShopByCate = ({h2tag}) => {
         <h2>{h2tag}</h2>
         <span>Freshest meats just for you</span>
        
-        <Grid templateColumns='repeat(4, 1fr)' gap={6}>
+        <Grid className={sbCate.col}   templateColumns='repeat(4, 1fr)'    gap={6}>
 
 
   {

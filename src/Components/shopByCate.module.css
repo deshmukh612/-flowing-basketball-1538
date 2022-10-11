@@ -42,3 +42,26 @@
     /* background-color: black; */
     transform: scale(0.5)
 }
+
+
+
+/* medium screen */
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+.col {
+    grid-template-columns: repeat(2,1fr);
+}
+}
+
+
+
+/* small screen */
+
+@media all and (min-width: 320px) and (max-width: 467px) {
+
+    .col {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}

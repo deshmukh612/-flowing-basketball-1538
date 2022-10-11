@@ -13,7 +13,7 @@ import {
     Input,
   } from '@chakra-ui/react'
   import {ChevronDownIcon} from '@chakra-ui/icons'
-  import navMod from "../Components/Navbar.module.css"
+  import navMod from "../Components/navbar.module.css"
 
 
 
