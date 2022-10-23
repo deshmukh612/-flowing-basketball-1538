@@ -31,7 +31,8 @@ const Products = () => {
 
   
   return (
-    <div >
+    <div  >
+      <div className="mainDiv">
       <h1 className="head">Chicken</h1>
       <hr width="100%" 
         size="10" 
@@ -43,6 +44,7 @@ const Products = () => {
         size="10" 
         align="center" 
         color="grey" ></hr>
+        </div>
       <div className="pro">
         {chicken.map((item) => {
           return (

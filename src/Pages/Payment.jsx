@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import paymentImg from "../Images/paymentImg.png";
 import payment from "../Pages/payment.module.css";
 import { useSelector } from "react-redux";
-
+import { Box } from '@chakra-ui/react'
 const reducer = (state, action) => {
   const { type, payload } = action;
 
@@ -149,10 +149,13 @@ const Payment = () => {
 
           <div className={payment.midileDiv}>
             <div>
+            <div>
               <h2>New Card</h2>
             </div>
 
-            <div>
+            <Box display={{
+                base: "none", md: 'block'
+              }}>
               <div className={payment.midileBox}>
                 <img src="https://www.licious.in/img/rebranding/offer.svg" />
                 <spen>20% off | ICICI Credit Cards</spen>
@@ -164,9 +167,11 @@ const Payment = () => {
                   July
                 </p>
               </div>
-            </div>
+            </Box>
 
-            <div>
+            <Box display={{
+                base: "none", md: 'block'
+              }}>
               <div className={payment.midileBox}>
                 <img src="https://www.licious.in/img/rebranding/offer.svg" />
                 <spen>Up to 20% cashback on Simpl</spen>
@@ -178,9 +183,11 @@ const Payment = () => {
                   Valid only on first Licious order using Simpl
                 </p>
               </div>
-            </div>
+            </Box>
 
-            <div>
+            <Box display={{
+                base: "none", md: 'block'
+              }}>
               <div className={payment.midileBox}>
                 <img src="https://www.licious.in/img/rebranding/offer.svg" />
                 <spen>25% off | Slice Cards</spen>
@@ -191,9 +198,11 @@ const Payment = () => {
                   Valid once per user | Valid from Mon-Wed
                 </p>
               </div>
-            </div>
+            </Box>
 
-            <div>
+            <Box display={{
+                base: "none", md: 'block'
+              }}>
               <div className={payment.midileBox}>
                 <img src="https://www.licious.in/img/rebranding/offer.svg" />
                 <spen>20% off | Bank of Baroda Credit Cards</spen>
@@ -204,7 +213,7 @@ const Payment = () => {
                   | Valid twice per user | Valid everyday
                 </p>
               </div>
-            </div>
+            </Box>
 
             <div>
               <div className={payment.midileBox}>
@@ -219,7 +228,9 @@ const Payment = () => {
               </div>
             </div>
 
-            <div>
+            <Box  display={{
+                base: "none", md: 'none', lg: '56px'
+              }}>
               <div className={payment.midileBox}>
                 <img src="https://www.licious.in/img/rebranding/offer.svg" />
                 <spen>10% off | HSBC Credit Card</spen>
@@ -230,9 +241,11 @@ const Payment = () => {
                   600 | Valid once per user | Valid from Mon to Fri
                 </p>
               </div>
-            </div>
+            </Box>
 
-            <div>
+            <Box  display={{
+                base: "none", md: 'none', lg: '56px'
+              }}>
               <div className={payment.midileBox}>
                 <img src="https://www.licious.in/img/rebranding/offer.svg" />
                 <spen>Cashback upto Rs.100 on CRED pay</spen>
@@ -244,24 +257,29 @@ const Payment = () => {
                   user
                 </p>
               </div>
-            </div>
+            </Box>
 
             <div>
-              <div className={payment.midileBox}>
+              <Box  display={{
+                base: "none", md: 'none', lg: '56px'
+              }} className={payment.midileBox}>
                 <img src="https://www.licious.in/img/rebranding/offer.svg" />
                 <spen>Paytm Wallet | Up to 750 cashback</spen>
-              </div>
-              <div className={payment.midileBox1}>
+              </Box>
+              <Box  display={{
+                base: "none", md: 'none', lg: '56px'
+              }} className={payment.midileBox1}>
                 <p>
                   20% off upto 200 on ICICI Credit Cards | Minimum order value
                   600 | Valid once per user | Valid on all days between 18-24
                   July
                 </p>
-              </div>
-
+              </Box>
+</div>
               {/* creadit card section */}
 
-              <div className={payment.creditDiv}>
+              <Box className={payment.creditDiv}
+               >
                 <form action="">
                   <input
                     type="number"
@@ -310,10 +328,10 @@ const Payment = () => {
                   <spen>Securely save card for future use</spen>
                   <br />
                   <button onClick={(e) => successPage(e)}>
-                    Pay &#8377;
+                    Pay &#8377;{amount + 39}
                   </button>
                 </form>
-              </div>
+              </Box>
             </div>
           </div>
 

@@ -127,7 +127,7 @@ const Footer = () => {
         </div>
 
         <div className={footer.c}>
-            <p> <img src='https://www.licious.in/img/rebranding/copyright2.png'></img>2022 Delightful Gourmet Pvt Ltd. All Rights Reserved.</p>
+            <p> 2022 Delightful Gourmet Pvt Ltd. All Rights Reserved.</p>
             <p>Licious is your one-stop fresh meat delivery shop. In here, you get nothing but the freshest meat & seafood, delivered straight to your doorstep. Now you can buy meat online anytime at your convenience. Indulge in our diverse selection: Chicken, Mutton, Seafood (Fish, Prawns, Crabs), Marinades & Cold Cuts. All our products are Componentspletely natural and healthy. Once you've experienced Licious, you'll never go back to the old way of buying meat and seafood.</p>
         </div>
     </>

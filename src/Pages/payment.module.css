@@ -4,7 +4,7 @@
     width: 100%;
     height: 800px;
     /* border: 1px solid red; */
-    margin-top: 85px;   
+    /* margin-top: 85px;    */
 }
 
 
@@ -270,3 +270,75 @@
  .downBox :nth-child(6)  :nth-child(2){
    color: #D11243;
  }
+
+
+
+ 
+  /* medium */
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+  
+}
+
+@media all and (min-width: 466px) and (max-width: 767px){
+ 
+}
+
+/* small screen */
+
+@media all and (min-width: 320px) and (max-width: 467px) {
+ 
+    .BigBox{
+        margin-top: -20px;
+        width: 95%;
+        height: auto;
+        /* border: 1px solid black; */
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;   
+    }
+    .BigBox >:nth-child(1){
+        width: 95%;
+        height: auto;
+        /* border: 1px solid black; */
+        display: none;
+    }
+
+    .BigBox >:nth-child(2){
+        width: 90%;
+        height: auto;
+        /* border: 1px solid black; */
+        /* display: none; */
+        padding: 10px;
+    
+    }
+
+    .BigBox >:nth-child(3){
+        width: 98%;
+        height: auto;
+        /* border: 1px solid black; */
+    margin-top: 800px;
+    display: none;
+    }
+    .midileBox{
+        /* background-color: rebeccapurple; */
+        font-size: 14px;
+        display: flex;
+        /* padding-left: 20px;
+        color: green;
+        margin-top: 10px;
+        border-top: 10px;
+        padding: 20px; */
+    }
+ 
+.midileBox1>p{
+    margin-top: 5px;
+    padding: 10px;
+  
+}
+}
+
+@media all and (min-width: 100px) and (max-width: 319px){
+ 
+  
+}

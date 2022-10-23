@@ -4,7 +4,10 @@
     margin: auto;
     margin-top: 50px;
     /* border: 1px solid black; */
-    display: flex;
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     gap: 20px;
     font-size: 20px;
     font-weight: bold;
@@ -33,3 +36,81 @@
     margin-top: 10px;
 
 }
+
+
+/* medium */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .blogDiv{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        margin-top: 50px;
+        /* border: 1px solid black; */
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #4A4A4A;
+    }
+  }
+
+  @media all and (min-width: 466px) and (max-width: 767px){
+    .blogDiv{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        margin-top: 50px;
+        /* border: 1px solid black; */
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        color: #4A4A4A;
+    }
+  }
+  
+  /* small screen */
+  
+  @media all and (min-width: 320px) and (max-width: 467px) {
+   
+
+    .blogDiv{
+        width: 95%;
+        height: auto;
+        margin: auto;
+        margin-top: 50px;
+        /* border: 1px solid black; */
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #4A4A4A;
+    }
+  }
+
+  @media all and (min-width: 100px) and (max-width: 319px){
+    .blogDiv{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        margin-top: 50px;
+        /* border: 1px solid black; */
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+        font-size: 10px;
+        font-weight: bold;
+        color: #4A4A4A;
+    }
+  }
