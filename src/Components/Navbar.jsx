@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import navMod from "../Components/Navbar.module.css"
+import navMod from "../Components/navbar.module.css"
 import Cart from './Cart'
 import CartCounter from './CartCounter'
 import Categories from './Categories'
@@ -29,7 +29,7 @@ const Navbar = () => {
                         <div><Map/></div>
 
                 </div>
-                <div><Searchbar/></div>
+                <div className={navMod.search_bar}><Searchbar/></div>
                 <div>
                 
                         <div className={navMod.img_nav}><img src="https://www.licious.in/img/rebranding/category-dropdown-icon.svg" alt="" /></div>

@@ -11,7 +11,7 @@ import {
   useDisclosure,
   DrawerCloseButton,
 } from '@chakra-ui/react'
-import navMod from "../Components/Navbar.module.css"
+import navMod from "../Components/navbar.module.css"
 
 import {
   Flex,

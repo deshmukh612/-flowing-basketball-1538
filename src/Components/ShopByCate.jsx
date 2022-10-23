@@ -6,12 +6,29 @@ import { useSelector,useDispatch } from 'react-redux/es/exports'
 import sbCate from "../Components/shopByCate.module.css"
 import { getShopByCategory } from '../Redux/HomeReducer/action'
 import {Link } from "react-router-dom"
+import { useMediaQuery } from '@chakra-ui/react'
+import { extendTheme } from '@chakra-ui/react'
+
+// 2. Update the breakpoints as key-value pairs
+const breakpoints = {
+
+  sm: '320px',
+  md: '768px',
+  lg: '960px',
+  xl: '1200px',
+  '2xl': '1536px',
+}
+
+// 3. Extend the theme
+const theme = extendTheme({ breakpoints })
 
 const ShopByCate = ({h2tag}) => {
-    const sbArray = useSelector((state)=> state.homeReducer.sbArray)
-    // console.log(sbArray)
-    const dispatch = useDispatch()
 
+    const sbArray = useSelector((state)=> state.homeReducer.sbArray)
+    const [isLargerThan1280] = useMediaQuery('(min-width: 1280px)')
+    console.log(isLargerThan1280)
+    const dispatch = useDispatch()
+  
    
     const property = {
         imageUrl: 'https://bit.ly/2Z4KKcF',
@@ -42,7 +59,21 @@ const ShopByCate = ({h2tag}) => {
         <h2>{h2tag}</h2>
         <span>Freshest meats just for you</span>
        
-        <Grid templateColumns='repeat(4, 1fr)' gap={6}>
+        <Grid className={sbCate.col} 
+        // border ="2px solid black" 
+          // templateColumns='repeat(4, 1fr)'  
+          templateColumns={
+            {
+              base: 'repeat(1, 1fr)',
+              sm: 'repeat(1, 1fr)',
+              md: 'repeat(2, 1fr)',
+              lg: 'repeat(3, 1fr)',
+              xl: 'repeat(4, 1fr)',
+              '2xl': 'repeat(4, 1fr)',
+          }   
+          //  {{ base: '24px', md: '40px', lg: '56px' }}
+        }
+          gap={6}>
 
 
   {
